@@ -1,1 +1,9 @@
+
+// INICIAR SERVER LOCAL
 mkdocs serve
+
+// SUBIR CAMBIOS A GITHUB
+git add .
+git commit -m "Descripción breve de los cambios realizados"
+git push -u origin master
+
