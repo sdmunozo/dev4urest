@@ -7,3 +7,12 @@ git add .
 git commit -m "Descripción breve de los cambios realizados"
 git push -u origin master
 
+
+// Cada vez que se haga un rebuild
+
+mkdocs build
+mv site/* .
+rmdir site
+git add .
+git commit -m "Reorganized directory structure"
+git push origin master
