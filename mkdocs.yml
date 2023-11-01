@@ -1,0 +1,28 @@
+site_name: 'Mi Documentación de Sistema'
+theme:
+  name: 'material'
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - pymdownx.highlight
+  - pymdownx.tabbed
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+
+extra_javascript:
+  - 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js'
+  - 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js'
+  - 'https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js'
+
+nav:
+  - Home: index.md
+  - Developer Guide:
+    - Guide 1: developer-guide/index.md
+    - Guide 2: developer-guide/index2.md
+    - Guide 3: developer-guide/index3.md
+  - User Guide: user-guide/index.md
+  - API Reference: api-reference/index.md
