@@ -3,7 +3,7 @@
 NF
 NFNA-ManagePageFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # MPF : Manage Page 
 
 ## DEFINICIÓN
@@ -191,7 +191,7 @@ WR
 NF
 NFNA-LoginAdminFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # LAF : Login Admin 
 
 ## DEFINICIÓN
@@ -231,7 +231,7 @@ WR
 NF
 NFNA-DownloadUserTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # UDTF : Download User Template 
 
 ## DEFINICIÓN
@@ -274,7 +274,7 @@ WR
 NF
 NFNA-DownloadPermissionsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PEDTF : Download Permissions Template 
 
 ## DEFINICIÓN
@@ -317,7 +317,7 @@ WR
 NF
 NFNA-DownloadRolesTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # RODTF : Download Roles Template 
 
 ## DEFINICIÓN
@@ -360,7 +360,7 @@ WR
 NF
 NFNA-DownloadPrintersTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PIDTF : Download Printers Template 
 
 ## DEFINICIÓN
@@ -403,7 +403,7 @@ WR
 NF
 NFNA-DownloadPointsOfSaleTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PSDTF : Download Points Of Sale Template 
 
 ## DEFINICIÓN
@@ -446,7 +446,7 @@ WR
 NF
 NFNA-DownloadPlatformsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PLDTF : Download Platforms Template 
 
 ## DEFINICIÓN
@@ -489,7 +489,7 @@ WR
 NF
 NFNA-DownloadTaxesTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # TADTF : Download Taxes Template 
 
 ## DEFINICIÓN
@@ -532,7 +532,7 @@ WR
 NF
 NFNA-DownloadPMGroupsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PGDTF : Download PMGroups Template 
 
 ## DEFINICIÓN
@@ -575,7 +575,7 @@ WR
 NF
 NFNA-DownloadPaymentMethodsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PMDTF : Download Payment Methods Template 
 
 ## DEFINICIÓN
@@ -618,7 +618,7 @@ WR
 NF
 NFNA-DownloadCategoriesTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # CADTF : Download Categories Template 
 
 ## DEFINICIÓN
@@ -661,7 +661,7 @@ WR
 NF
 NFNA-DownloadProductsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PIDTF : Download Products Template 
 
 ## DEFINICIÓN
@@ -704,7 +704,7 @@ WR
 NF
 NFNA-UploadUserTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # UDUTF : Upload User Template 
 
 ## DEFINICIÓN
@@ -750,7 +750,7 @@ WR
 NF
 NFNA-UploadPermissionsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PRUTF : Upload Permissions Template 
 
 ## DEFINICIÓN
@@ -795,7 +795,7 @@ WR
 NF
 NFNA-UploadRolesTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # ROUTF : Upload Roles Template 
 
 ## DEFINICIÓN
@@ -841,7 +841,7 @@ WR
 NF
 NFNA-UploadPrintersTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PRUTF : Upload Printers Template 
 
 ## DEFINICIÓN
@@ -887,7 +887,7 @@ WR
 NF
 NFNA-UploadPointsOfSaleTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PSUTF : Upload Points Of Sale Template 
 
 ## DEFINICIÓN
@@ -933,7 +933,7 @@ WR
 NF
 NFNA-UploadPlatformsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PRUTF : Upload Platforms Template 
 
 ## DEFINICIÓN
@@ -979,7 +979,7 @@ WR
 NF
 NFNA-UploadTaxesTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # TAUTF : Upload Taxes Template 
 
 ## DEFINICIÓN
@@ -1025,7 +1025,7 @@ WR
 NF
 NFNA-UploadPMGroupsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PGUTF : Upload PMGroups Template 
 
 ## DEFINICIÓN
@@ -1071,7 +1071,7 @@ WR
 NF
 NFNA-UploadPaymentMethodsTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PMUTF : Upload Payment Methods Template 
 
 ## DEFINICIÓN
@@ -1117,7 +1117,7 @@ WR
 NF
 NFNA-UploadCategoriesTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # CAUTF : Upload Categories Template 
 
 ## DEFINICIÓN
@@ -1163,7 +1163,7 @@ WR
 NF
 NFNA-UploadProductTemplateFlow
 
-### Detalle de caso de uso:
+### Detalle de caso de uso
 # PRUTF : Upload Product Template 
 
 ## DEFINICIÓN

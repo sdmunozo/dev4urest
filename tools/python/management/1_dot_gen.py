@@ -34,7 +34,7 @@ def process_diagram(diagram_commands):
     comandos.append("NF")
     comandos.append("NFNA-" + diagram_name)
     comandos.append("")
-    comandos.append("### Detalle de caso de uso:")
+    comandos.append("### Detalle de caso de uso")
     comandos.append("# " + three_digit_key + " : " + re.sub(r'([a-z])([A-Z])', r'\1 \2', diagram_name).replace("Flow", ""))
     comandos.append("")
     comandos.append("## DEFINICIÓN\n")

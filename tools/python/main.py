@@ -17,5 +17,8 @@ exec(open('management/4_gen_puml.py').read())
 print("5_puml_to_png.py se está iniciando...")
 exec(open('management/5_puml_to_png.py').read())
 
+print("6_add_fd_markd.py se está iniciando...")
+exec(open('management/6_add_fd_markd.py').read())
+
 print("main.py ha terminado.")
 
