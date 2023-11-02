@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "TAUTF :  Upload Taxes Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

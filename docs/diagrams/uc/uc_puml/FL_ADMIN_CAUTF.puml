@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "CAUTF :  Upload Categories Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

@@ -17,11 +17,35 @@ extra_javascript:
   - 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js'
   - 'https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js'
 
+
 nav:
   - Home: index.md
-  - Developer Guide:
-    - Guide 1: developer-guide/index.md
-    - Guide 2: developer-guide/index2.md
-    - Guide 3: developer-guide/index3.md
-  - User Guide: user-guide/index.md
-  - API Reference: api-reference/index.md
+  - Main Flows:
+      - MPF Manage Page : developer-guide/ManagePageFlow.md
+      - LAF Login Admin : developer-guide/LoginAdminFlow.md
+
+  - Download Template:
+      - UDTF User: developer-guide/DownloadUserTemplateFlow.md
+      - PEDTF Permissions: developer-guide/DownloadPermissionsTemplateFlow.md
+      - RODTF Roles: developer-guide/DownloadRolesTemplateFlow.md
+      - PIDTF Printers: developer-guide/DownloadPrintersTemplateFlow.md
+      - PSDTF Points Of Sale: developer-guide/DownloadPointsOfSaleTemplateFlow.md
+      - PLDTF Platforms: developer-guide/DownloadPlatformsTemplateFlow.md
+      - TADTF Taxes: developer-guide/DownloadTaxesTemplateFlow.md
+      - PGDTF P M Groups: developer-guide/DownloadPMGroupsTemplateFlow.md
+      - PMDTF Payment Methods: developer-guide/DownloadPaymentMethodsTemplateFlow.md
+      - CADTF Categories: developer-guide/DownloadCategoriesTemplateFlow.md
+      - PIDTF Products: developer-guide/DownloadProductsTemplateFlow.md
+
+  - Upload Template:
+      - UDUTF User: developer-guide/UploadUserTemplateFlow.md
+      - PRUTF Permissions: developer-guide/UploadPermissionsTemplateFlow.md
+      - ROUTF Roles: developer-guide/UploadRolesTemplateFlow.md
+      - PRUTF Printers: developer-guide/UploadPrintersTemplateFlow.md
+      - PSUTF Points Of Sale: developer-guide/UploadPointsOfSaleTemplateFlow.md
+      - PRUTF Platforms: developer-guide/UploadPlatformsTemplateFlow.md
+      - TAUTF Taxes: developer-guide/UploadTaxesTemplateFlow.md
+      - PGUTF P M Groups: developer-guide/UploadPMGroupsTemplateFlow.md
+      - PMUTF Payment Methods: developer-guide/UploadPaymentMethodsTemplateFlow.md
+      - CAUTF Categories: developer-guide/UploadCategoriesTemplateFlow.md
+      - PRUTF Product: developer-guide/UploadProductsTemplateFlow.md

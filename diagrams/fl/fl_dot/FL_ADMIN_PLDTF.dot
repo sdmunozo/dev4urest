@@ -1,0 +1,179 @@
+digraph DownloadPlatformsTemplateFlow {
+    node [shape=box];
+    edge [dir=forward];
+
+    //Contenido
+
+PLDTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                    <TR>
+                        <TD CELLPADDING="4">PLDTF01: Viene de:</TD>
+                    </TR>
+                    <TR>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF23.</FONT></TD>
+                    </TR>
+                </TABLE>>];
+
+PLDTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                    <TR>
+                        <TD CELLPADDING="4">PLDTF01: Viene de:</TD>
+                    </TR>
+                    <TR>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF23.</FONT></TD>
+                    </TR>
+                </TABLE>>];
+
+PLDTF02 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PLDTF02: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Ejecuta: </FONT>"Download Template(Platforms)".</TD>
+    </TR>
+</TABLE>>];
+
+PLDTF03 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PLDTF03: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Success".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_obj: </FONT>"PlatformsTemplate.csv".</TD>
+    </TR>
+</TABLE>>];
+
+PLDTF04 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PLDTF04: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Record not found.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"Hay un problema con el servidor.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+PLDTF05 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PLDTF05: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Database not available".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"No hay conexión con la base de datos.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+PLDTF06 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PLDTF06: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF87.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PLDTF07 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PLDTF07: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MessageModal[dis_msg, type]".</TD>
+    </TR>
+</TABLE>>];
+
+PLDTF08 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PLDTF08: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"MessageModal : Yes".</TD>
+    </TR>
+</TABLE>>];
+
+PLDTF09 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PLDTF09: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"MessageModal : No".</TD>
+    </TR>
+</TABLE>>];
+
+PLDTF10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PLDTF10: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PLDTF10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PLDTF10: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PLDTF11 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PLDTF11: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF81.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PLDTF12 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PLDTF12: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PLDTF12 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PLDTF12: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PLDTF13 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PLDTF13: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">PLDTF02.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PLDTF01 -> PLDTF02;
+PLDTF02 -> PLDTF03 [label="code: '200'", color="green"];
+PLDTF02 -> PLDTF04 [label="code: '404'", color="red"];
+PLDTF02 -> PLDTF05 [label="code: 'E1'", color="red"];
+PLDTF03 -> PLDTF06;
+PLDTF04 -> PLDTF07;
+PLDTF07 -> PLDTF08;
+PLDTF07 -> PLDTF09;
+PLDTF09 -> PLDTF10;
+PLDTF10 -> PLDTF11;
+PLDTF08 -> PLDTF12;
+PLDTF12 -> PLDTF13;
+PLDTF05 -> PLDTF07;
+}

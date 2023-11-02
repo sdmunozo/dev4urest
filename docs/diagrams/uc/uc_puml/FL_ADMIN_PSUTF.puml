@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "PSUTF :  Upload Points Of Sale Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

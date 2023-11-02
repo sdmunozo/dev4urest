@@ -1,0 +1,216 @@
+digraph UploadRolesTemplateFlow {
+    node [shape=box];
+    edge [dir=forward];
+
+    //Contenido
+
+ROUTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                    <TR>
+                        <TD CELLPADDING="4">ROUTF01: Viene de:</TD>
+                    </TR>
+                    <TR>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF128.</FONT></TD>
+                    </TR>
+                </TABLE>>];
+
+ROUTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                    <TR>
+                        <TD CELLPADDING="4">ROUTF01: Viene de:</TD>
+                    </TR>
+                    <TR>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF128.</FONT></TD>
+                    </TR>
+                </TABLE>>];
+
+ROUTF02 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF02: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"UploadFileModal('Roles')".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF03 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF03: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Cargar Archivo ['roles.csv']".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF04 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF04: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Ejecuta: </FONT>"Upload File('roles.csv')".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF05 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF05: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Success".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_obj: </FONT>"RolesUploadResult.csv".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF06 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF06: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Record not found.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"Hay un problema con el servidor.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF07 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF07: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Invalid request format.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"Solicitud incompleta o mal formateada.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF08 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF08: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Database not available".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"No hay conexión con la base de datos.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF09 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">ROUTF09: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF133.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+ROUTF10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF10: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MessageModal[dis_msg, type]".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF11 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF11: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"MessageModal : Yes".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF12 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">ROUTF12: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"MessageModal : No".</TD>
+    </TR>
+</TABLE>>];
+
+ROUTF13 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">ROUTF13: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+ROUTF13 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">ROUTF13: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+ROUTF14 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">ROUTF14: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">ROUTF04.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+ROUTF15 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">ROUTF15: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+ROUTF15 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">ROUTF15: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+ROUTF16 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">ROUTF16: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF133.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+ROUTF01 -> ROUTF02;
+ROUTF02 -> ROUTF03;
+ROUTF03 -> ROUTF04;
+ROUTF04 -> ROUTF05 [label="code: '200'", color="green"];
+ROUTF04 -> ROUTF06 [label="code: '404'", color="red"];
+ROUTF04 -> ROUTF07 [label="code: '400'", color="red"];
+ROUTF04 -> ROUTF08 [label="code: 'E1'", color="red"];
+ROUTF06 -> ROUTF10;
+ROUTF07 -> ROUTF10;
+ROUTF08 -> ROUTF10;
+ROUTF05 -> ROUTF09;
+ROUTF10 -> ROUTF11;
+ROUTF10 -> ROUTF12;
+ROUTF11 -> ROUTF13;
+ROUTF13 -> ROUTF14;
+ROUTF12 -> ROUTF15;
+ROUTF15 -> ROUTF16;
+}

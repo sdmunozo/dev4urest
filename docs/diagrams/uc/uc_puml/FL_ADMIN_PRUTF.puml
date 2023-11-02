@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "PRUTF :  Upload Product Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

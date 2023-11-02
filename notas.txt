@@ -11,8 +11,13 @@ git push -u origin master
 // Cada vez que se haga un rebuild
 
 mkdocs build
-mv site/* .
-rmdir site
+mv site/* . o rsync -av site/ ./
+rmdir site o rm -r site
 git add .
 git commit -m "Reorganized directory structure"
+git push origin master
+
+
+git add .
+git commit -m "Reorganizado la estructura de directorios usando rsync"
 git push origin master

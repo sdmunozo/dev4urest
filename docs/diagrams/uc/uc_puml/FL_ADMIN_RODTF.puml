@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "RODTF :  Download Roles Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

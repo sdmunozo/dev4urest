@@ -61,10 +61,18 @@ digraph {
 }
 ```
 
+```plantuml
+@startuml
+Alice -> Bob: Hello
+Bob -> Alice: Hi!
+@enduml
+
+
+
 ## Visualización Interactiva del SVG
 
 <div style="border: 1px solid black; width: 800px; height: 600px; overflow: hidden;">
-    <object data="./diagrams/svg/test1.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
+    <object data="./diagrams/fl/fl_svg/FL-ADMIN-CADTF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
 </div>
 
 <script>
@@ -76,4 +84,15 @@ window.addEventListener("load", function() {
     });
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    var plantUmlElements = document.querySelectorAll('code.language-plantuml');
+
+    plantUmlElements.forEach(function(element) {
+        var plantUMLText = element.innerText;
+        var encodedPlantUML = plantumlEncoder.encode(plantUMLText);
+        var img = document.createElement('img');
+        img.src = 'http://www.plantuml.com/plantuml/png/' + encodedPlantUML;
+        element.parentElement.replaceWith(img);
+    });
+});
 </script>

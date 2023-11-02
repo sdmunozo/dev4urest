@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "MPF :  Manage Page" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

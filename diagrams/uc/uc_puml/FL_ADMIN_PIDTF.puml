@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "PIDTF :  Download Products Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml
