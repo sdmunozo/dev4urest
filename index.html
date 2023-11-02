@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#bienvenido-a-la-documentacion-de-mi-sistema" class="md-skip">
+        <a href="#documentacion-de-4urest" class="md-skip">
           Skip to content
         </a>
       
@@ -234,22 +234,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ejemplo-de-markdown" class="md-nav__link">
-    Ejemplo de Markdown
+  <a href="#contenido" class="md-nav__link">
+    Contenido
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagrama-de-mermaid" class="md-nav__link">
-    Diagrama de Mermaid
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#visualizacion-interactiva-del-svg" class="md-nav__link">
-    Visualización Interactiva del SVG
+  <a href="#programacion-detallada" class="md-nav__link">
+    Programación Detallada
   </a>
   
 </li>
@@ -898,22 +891,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#ejemplo-de-markdown" class="md-nav__link">
-    Ejemplo de Markdown
+  <a href="#contenido" class="md-nav__link">
+    Contenido
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagrama-de-mermaid" class="md-nav__link">
-    Diagrama de Mermaid
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#visualizacion-interactiva-del-svg" class="md-nav__link">
-    Visualización Interactiva del SVG
+  <a href="#programacion-detallada" class="md-nav__link">
+    Programación Detallada
   </a>
   
 </li>
@@ -933,91 +919,45 @@
                   
 
 
-<h1 id="bienvenido-a-la-documentacion-de-mi-sistema">Bienvenido a la Documentación de Mi Sistema</h1>
-<h2 id="ejemplo-de-markdown">Ejemplo de Markdown</h2>
-<p>Aquí puedes escribir texto en formato Markdown.</p>
-<h2 id="diagrama-de-mermaid">Diagrama de Mermaid</h2>
-<div class="mermaid">sequenceDiagram
-    participant AdminUser as Administrador
-    participant FrontendUI as Sistema (Frontend)
-    participant BackendService as Sistema (Backend)
-    participant Database as Base de Datos
-
-    AdminUser-&gt;&gt;FrontendUI: Selecciona: "Descargar Plantilla"
-    FrontendUI-&gt;&gt;BackendService: Solicita Descargar Plantilla
-
-    BackendService-&gt;&gt;Database: Consulta Plantilla por User(user_id)
-    Database--&gt;&gt;BackendService: Devuelve Contenido del User Template
-
-    alt éxito (código 200)
-        BackendService--&gt;&gt;FrontendUI: Envía Datos de la Plantilla
-        FrontendUI-&gt;&gt;FrontendUI: Genera archivo CSV con el contenido
-        FrontendUI-&gt;&gt;AdminUser: Inicia la descarga del archivo CSV
-        FrontendUI-&gt;&gt;FrontendUI: Redirige a MPF126
-    else no encontrado (código 404)
-        BackendService--&gt;&gt;FrontendUI: Error (404)
-        FrontendUI-&gt;&gt;AdminUser: Muestra MessageModal[dis_msg, type]
-        alt Yes
-            AdminUser-&gt;&gt;FrontendUI: Selecciona MessageModal: Yes
-            FrontendUI-&gt;&gt;FrontendUI: Cierra ventana MessageModal
-            FrontendUI-&gt;&gt;FrontendUI: Redirige a UDTF02
-        else No
-            AdminUser-&gt;&gt;FrontendUI: Selecciona MessageModal: No
-            FrontendUI-&gt;&gt;FrontendUI: Cierra ventana MessageModal
-            FrontendUI-&gt;&gt;FrontendUI: Redirige a MPF120
-        end
-    else error base de datos (código E1)
-        BackendService--&gt;&gt;FrontendUI: Error E1
-        FrontendUI-&gt;&gt;AdminUser: Muestra MessageModal[dis_msg, type]
-        alt Yes
-            AdminUser-&gt;&gt;FrontendUI: Selecciona MessageModal: Yes
-            FrontendUI-&gt;&gt;FrontendUI: Cierra ventana MessageModal
-            FrontendUI-&gt;&gt;FrontendUI: Intenta reconectar o redirige a UDTF02
-        else No
-            AdminUser-&gt;&gt;FrontendUI: Selecciona MessageModal: No
-            FrontendUI-&gt;&gt;FrontendUI: Cierra ventana MessageModal
-            FrontendUI-&gt;&gt;FrontendUI: Redirige a MPF120
-        end
-    end
-</div>
-<div class="highlight"><pre><span></span><code>digraph {
-    A -&gt; B;
-    B -&gt; C;
-    A -&gt; C;
-    C -&gt; D;
-}
-</code></pre></div>
-<p>```plantuml
-@startuml
-Alice -&gt; Bob: Hello
-Bob -&gt; Alice: Hi!
-@enduml</p>
-<h2 id="visualizacion-interactiva-del-svg">Visualización Interactiva del SVG</h2>
-<div style="border: 1px solid black; width: 800px; height: 600px; overflow: hidden;">
-    <object data="./diagrams/fl/fl_svg/FL-ADMIN-CADTF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
-</div>
-
-<script>
-window.addEventListener("load", function() {
-    var svgElement = document.querySelector('#diagramaSvg').contentDocument.documentElement;
-    svgPanZoom(svgElement, {
-        zoomEnabled: true,
-        controlIconsEnabled: true
-    });
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    var plantUmlElements = document.querySelectorAll('code.language-plantuml');
-
-    plantUmlElements.forEach(function(element) {
-        var plantUMLText = element.innerText;
-        var encodedPlantUML = plantumlEncoder.encode(plantUMLText);
-        var img = document.createElement('img');
-        img.src = 'http://www.plantuml.com/plantuml/png/' + encodedPlantUML;
-        element.parentElement.replaceWith(img);
-    });
-});
-</script>
+<h1 id="documentacion-de-4urest">Documentación de 4uRest</h1>
+<p>A continuación se presenta la documentación detallada. Aquí podrás explorar a fondo las diversas características y módulos de nuestro sistema.</p>
+<h2 id="contenido">Contenido</h2>
+<ul>
+<li>
+<p><strong>Casos de Uso Detallados</strong>: Entiende las diversas funciones de nuestro sistema desglosadas de forma detallada.</p>
+</li>
+<li>
+<p><strong>Flujos Principales</strong>: Conoce cómo funcionan los procesos más importantes del sistema paso a paso.</p>
+</li>
+<li>
+<p><strong>Códigos de Funciones</strong>: Accede a los códigos de cada función y entiende su lógica y flujo.</p>
+</li>
+<li>
+<p><strong>Flujos de Código</strong>: Visualiza gráficamente cómo se ejecutan nuestros códigos internamente.</p>
+</li>
+<li>
+<p><strong>Diagrama EBC</strong>: Explora el Diagrama Entidad-Beneficio-Costo de nuestro sistema.</p>
+</li>
+<li>
+<p><strong>Diagrama de Flujo</strong>: Navega por el flujo de trabajo y los procesos del sistema representados gráficamente.</p>
+</li>
+<li>
+<p><strong>Vistas y Modales</strong>: Observa las interfaces de usuario y los elementos modales que forman parte de la experiencia del usuario.</p>
+</li>
+<li>
+<p><strong>Capa de Datos</strong>: Profundiza en la estructura y gestión de nuestros datos.</p>
+</li>
+<li>
+<p><strong>Diagrama de Secuencia</strong>: Analiza cómo interactúan los diferentes componentes del sistema a lo largo del tiempo.</p>
+</li>
+<li>
+<p><strong>Casos de Uso Integrados</strong>: Descubre cómo diferentes funcionalidades pueden trabajar juntas en casos de uso específicos.</p>
+</li>
+</ul>
+<h2 id="programacion-detallada">Programación Detallada</h2>
+<p>Para los programadores y desarrolladores, ofrecemos una visión detallada de cada funcionalidad. Esto facilita la comprensión y la implementación de lógicas específicas. Haz clic en la funcionalidad deseada para ver su detalle.</p>
+<p>[Lista de Funcionalidades Detalladas]</p>
+<hr />
 
 
 

@@ -1,98 +1,35 @@
-# Bienvenido a la Documentación de Mi Sistema
+# Documentación de 4uRest
 
-## Ejemplo de Markdown
+A continuación se presenta la documentación detallada. Aquí podrás explorar a fondo las diversas características y módulos de nuestro sistema.
 
-Aquí puedes escribir texto en formato Markdown.
+## Contenido
 
-## Diagrama de Mermaid
+- **Casos de Uso Detallados**: Entiende las diversas funciones de nuestro sistema desglosadas de forma detallada.
+  
+- **Flujos Principales**: Conoce cómo funcionan los procesos más importantes del sistema paso a paso.
+  
+- **Códigos de Funciones**: Accede a los códigos de cada función y entiende su lógica y flujo.
+  
+- **Flujos de Código**: Visualiza gráficamente cómo se ejecutan nuestros códigos internamente.
+  
+- **Diagrama EBC**: Explora el Diagrama Entidad-Beneficio-Costo de nuestro sistema.
+  
+- **Diagrama de Flujo**: Navega por el flujo de trabajo y los procesos del sistema representados gráficamente.
+  
+- **Vistas y Modales**: Observa las interfaces de usuario y los elementos modales que forman parte de la experiencia del usuario.
+  
+- **Capa de Datos**: Profundiza en la estructura y gestión de nuestros datos.
+  
+- **Diagrama de Secuencia**: Analiza cómo interactúan los diferentes componentes del sistema a lo largo del tiempo.
 
-```mermaid
-sequenceDiagram
-    participant AdminUser as Administrador
-    participant FrontendUI as Sistema (Frontend)
-    participant BackendService as Sistema (Backend)
-    participant Database as Base de Datos
+- **Casos de Uso Integrados**: Descubre cómo diferentes funcionalidades pueden trabajar juntas en casos de uso específicos.
 
-    AdminUser->>FrontendUI: Selecciona: "Descargar Plantilla"
-    FrontendUI->>BackendService: Solicita Descargar Plantilla
+## Programación Detallada
 
-    BackendService->>Database: Consulta Plantilla por User(user_id)
-    Database-->>BackendService: Devuelve Contenido del User Template
+Para los programadores y desarrolladores, ofrecemos una visión detallada de cada funcionalidad. Esto facilita la comprensión y la implementación de lógicas específicas. Haz clic en la funcionalidad deseada para ver su detalle.
 
-    alt éxito (código 200)
-        BackendService-->>FrontendUI: Envía Datos de la Plantilla
-        FrontendUI->>FrontendUI: Genera archivo CSV con el contenido
-        FrontendUI->>AdminUser: Inicia la descarga del archivo CSV
-        FrontendUI->>FrontendUI: Redirige a MPF126
-    else no encontrado (código 404)
-        BackendService-->>FrontendUI: Error (404)
-        FrontendUI->>AdminUser: Muestra MessageModal[dis_msg, type]
-        alt Yes
-            AdminUser->>FrontendUI: Selecciona MessageModal: Yes
-            FrontendUI->>FrontendUI: Cierra ventana MessageModal
-            FrontendUI->>FrontendUI: Redirige a UDTF02
-        else No
-            AdminUser->>FrontendUI: Selecciona MessageModal: No
-            FrontendUI->>FrontendUI: Cierra ventana MessageModal
-            FrontendUI->>FrontendUI: Redirige a MPF120
-        end
-    else error base de datos (código E1)
-        BackendService-->>FrontendUI: Error E1
-        FrontendUI->>AdminUser: Muestra MessageModal[dis_msg, type]
-        alt Yes
-            AdminUser->>FrontendUI: Selecciona MessageModal: Yes
-            FrontendUI->>FrontendUI: Cierra ventana MessageModal
-            FrontendUI->>FrontendUI: Intenta reconectar o redirige a UDTF02
-        else No
-            AdminUser->>FrontendUI: Selecciona MessageModal: No
-            FrontendUI->>FrontendUI: Cierra ventana MessageModal
-            FrontendUI->>FrontendUI: Redirige a MPF120
-        end
-    end
+[Lista de Funcionalidades Detalladas]
 
-```
-
-```
-digraph {
-    A -> B;
-    B -> C;
-    A -> C;
-    C -> D;
-}
-```
-
-```plantuml
-@startuml
-Alice -> Bob: Hello
-Bob -> Alice: Hi!
-@enduml
+---
 
 
-
-## Visualización Interactiva del SVG
-
-<div style="border: 1px solid black; width: 800px; height: 600px; overflow: hidden;">
-    <object data="./diagrams/fl/fl_svg/FL-ADMIN-CADTF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
-</div>
-
-<script>
-window.addEventListener("load", function() {
-    var svgElement = document.querySelector('#diagramaSvg').contentDocument.documentElement;
-    svgPanZoom(svgElement, {
-        zoomEnabled: true,
-        controlIconsEnabled: true
-    });
-});
-
-document.addEventListener('DOMContentLoaded', function() {
-    var plantUmlElements = document.querySelectorAll('code.language-plantuml');
-
-    plantUmlElements.forEach(function(element) {
-        var plantUMLText = element.innerText;
-        var encodedPlantUML = plantumlEncoder.encode(plantUMLText);
-        var img = document.createElement('img');
-        img.src = 'http://www.plantuml.com/plantuml/png/' + encodedPlantUML;
-        element.parentElement.replaceWith(img);
-    });
-});
-</script>
