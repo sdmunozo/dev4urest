@@ -18,7 +18,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Manage Page 
-IMG-MPF : Manage Page -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_MPF.png
+IMG-MPF : Manage Page -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_MPF.png
 
 ## FLUJO BÁSICO: Manage Page 
 NT
@@ -206,7 +206,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Login Admin 
-IMG-LAF : Login Admin -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_LAF.png
+IMG-LAF : Login Admin -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_LAF.png
 
 ## FLUJO BÁSICO: Login Admin 
 NT
@@ -246,7 +246,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download User Template 
-IMG-UDTF : Download User Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_UDTF.png
+IMG-UDTF : Download User Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_UDTF.png
 
 ## FLUJO BÁSICO: Download User Template 
 NT
@@ -289,7 +289,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Permissions Template 
-IMG-PEDTF : Download Permissions Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PEDTF.png
+IMG-PEDTF : Download Permissions Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PEDTF.png
 
 ## FLUJO BÁSICO: Download Permissions Template 
 NT
@@ -332,7 +332,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Roles Template 
-IMG-RODTF : Download Roles Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_RODTF.png
+IMG-RODTF : Download Roles Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_RODTF.png
 
 ## FLUJO BÁSICO: Download Roles Template 
 NT
@@ -375,7 +375,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Printers Template 
-IMG-PIDTF : Download Printers Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PIDTF.png
+IMG-PIDTF : Download Printers Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PIDTF.png
 
 ## FLUJO BÁSICO: Download Printers Template 
 NT
@@ -418,7 +418,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Points Of Sale Template 
-IMG-PSDTF : Download Points Of Sale Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PSDTF.png
+IMG-PSDTF : Download Points Of Sale Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PSDTF.png
 
 ## FLUJO BÁSICO: Download Points Of Sale Template 
 NT
@@ -461,7 +461,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Platforms Template 
-IMG-PLDTF : Download Platforms Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PLDTF.png
+IMG-PLDTF : Download Platforms Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PLDTF.png
 
 ## FLUJO BÁSICO: Download Platforms Template 
 NT
@@ -504,7 +504,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Taxes Template 
-IMG-TADTF : Download Taxes Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_TADTF.png
+IMG-TADTF : Download Taxes Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_TADTF.png
 
 ## FLUJO BÁSICO: Download Taxes Template 
 NT
@@ -547,7 +547,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download PMGroups Template 
-IMG-PGDTF : Download PMGroups Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PGDTF.png
+IMG-PGDTF : Download PMGroups Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PGDTF.png
 
 ## FLUJO BÁSICO: Download PMGroups Template 
 NT
@@ -590,7 +590,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Payment Methods Template 
-IMG-PMDTF : Download Payment Methods Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PMDTF.png
+IMG-PMDTF : Download Payment Methods Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PMDTF.png
 
 ## FLUJO BÁSICO: Download Payment Methods Template 
 NT
@@ -633,7 +633,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Categories Template 
-IMG-CADTF : Download Categories Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_CADTF.png
+IMG-CADTF : Download Categories Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_CADTF.png
 
 ## FLUJO BÁSICO: Download Categories Template 
 NT
@@ -676,7 +676,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download Products Template 
-IMG-PIDTF : Download Products Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PIDTF.png
+IMG-PIDTF : Download Products Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PIDTF.png
 
 ## FLUJO BÁSICO: Download Products Template 
 NT
@@ -719,7 +719,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload User Template 
-IMG-UDUTF : Upload User Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_UDUTF.png
+IMG-UDUTF : Upload User Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_UDUTF.png
 
 ## FLUJO BÁSICO: Upload User Template 
 NT
@@ -765,7 +765,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Permissions Template 
-IMG-PRUTF : Upload Permissions Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
+IMG-PRUTF : Upload Permissions Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
 
 ## FLUJO BÁSICO: Upload Permissions Template 
 NT
@@ -810,7 +810,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Roles Template 
-IMG-ROUTF : Upload Roles Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_ROUTF.png
+IMG-ROUTF : Upload Roles Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_ROUTF.png
 
 ## FLUJO BÁSICO: Upload Roles Template 
 NT
@@ -856,7 +856,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Printers Template 
-IMG-PRUTF : Upload Printers Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
+IMG-PRUTF : Upload Printers Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
 
 ## FLUJO BÁSICO: Upload Printers Template 
 NT
@@ -902,7 +902,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Points Of Sale Template 
-IMG-PSUTF : Upload Points Of Sale Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PSUTF.png
+IMG-PSUTF : Upload Points Of Sale Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PSUTF.png
 
 ## FLUJO BÁSICO: Upload Points Of Sale Template 
 NT
@@ -948,7 +948,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Platforms Template 
-IMG-PRUTF : Upload Platforms Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
+IMG-PRUTF : Upload Platforms Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
 
 ## FLUJO BÁSICO: Upload Platforms Template 
 NT
@@ -994,7 +994,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Taxes Template 
-IMG-TAUTF : Upload Taxes Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_TAUTF.png
+IMG-TAUTF : Upload Taxes Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_TAUTF.png
 
 ## FLUJO BÁSICO: Upload Taxes Template 
 NT
@@ -1040,7 +1040,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload PMGroups Template 
-IMG-PGUTF : Upload PMGroups Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PGUTF.png
+IMG-PGUTF : Upload PMGroups Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PGUTF.png
 
 ## FLUJO BÁSICO: Upload PMGroups Template 
 NT
@@ -1086,7 +1086,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Payment Methods Template 
-IMG-PMUTF : Upload Payment Methods Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PMUTF.png
+IMG-PMUTF : Upload Payment Methods Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PMUTF.png
 
 ## FLUJO BÁSICO: Upload Payment Methods Template 
 NT
@@ -1132,7 +1132,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Categories Template 
-IMG-CAUTF : Upload Categories Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_CAUTF.png
+IMG-CAUTF : Upload Categories Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_CAUTF.png
 
 ## FLUJO BÁSICO: Upload Categories Template 
 NT
@@ -1178,7 +1178,7 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload Product Template 
-IMG-PRUTF : Upload Product Template -../developer-guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
+IMG-PRUTF : Upload Product Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
 
 ## FLUJO BÁSICO: Upload Product Template 
 NT
