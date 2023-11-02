@@ -21,31 +21,31 @@ extra_javascript:
 nav:
   - Home: index.md
   - Main Flows:
-      - MPF Manage Page : developer-guide/ManagePageFlow.md
-      - LAF Login Admin : developer-guide/LoginAdminFlow.md
+      - MPF Manage Page : developer_guide/ManagePageFlow.md
+      - LAF Login Admin : developer_guide/LoginAdminFlow.md
 
   - Download Template:
-      - UDTF User: developer-guide/DownloadUserTemplateFlow.md
-      - PEDTF Permissions: developer-guide/DownloadPermissionsTemplateFlow.md
-      - RODTF Roles: developer-guide/DownloadRolesTemplateFlow.md
-      - PIDTF Printers: developer-guide/DownloadPrintersTemplateFlow.md
-      - PSDTF Points Of Sale: developer-guide/DownloadPointsOfSaleTemplateFlow.md
-      - PLDTF Platforms: developer-guide/DownloadPlatformsTemplateFlow.md
-      - TADTF Taxes: developer-guide/DownloadTaxesTemplateFlow.md
-      - PGDTF P M Groups: developer-guide/DownloadPMGroupsTemplateFlow.md
-      - PMDTF Payment Methods: developer-guide/DownloadPaymentMethodsTemplateFlow.md
-      - CADTF Categories: developer-guide/DownloadCategoriesTemplateFlow.md
-      - PIDTF Products: developer-guide/DownloadProductsTemplateFlow.md
+      - UDTF User: developer_guide/DownloadUserTemplateFlow.md
+      - PEDTF Permissions: developer_guide/DownloadPermissionsTemplateFlow.md
+      - RODTF Roles: developer_guide/DownloadRolesTemplateFlow.md
+      - PIDTF Printers: developer_guide/DownloadPrintersTemplateFlow.md
+      - PSDTF Points Of Sale: developer_guide/DownloadPointsOfSaleTemplateFlow.md
+      - PLDTF Platforms: developer_guide/DownloadPlatformsTemplateFlow.md
+      - TADTF Taxes: developer_guide/DownloadTaxesTemplateFlow.md
+      - PGDTF P M Groups: developer_guide/DownloadPMGroupsTemplateFlow.md
+      - PMDTF Payment Methods: developer_guide/DownloadPaymentMethodsTemplateFlow.md
+      - CADTF Categories: developer_guide/DownloadCategoriesTemplateFlow.md
+      - PIDTF Products: developer_guide/DownloadProductsTemplateFlow.md
 
   - Upload Template:
-      - UDUTF User: developer-guide/UploadUserTemplateFlow.md
-      - PRUTF Permissions: developer-guide/UploadPermissionsTemplateFlow.md
-      - ROUTF Roles: developer-guide/UploadRolesTemplateFlow.md
-      - PRUTF Printers: developer-guide/UploadPrintersTemplateFlow.md
-      - PSUTF Points Of Sale: developer-guide/UploadPointsOfSaleTemplateFlow.md
-      - PRUTF Platforms: developer-guide/UploadPlatformsTemplateFlow.md
-      - TAUTF Taxes: developer-guide/UploadTaxesTemplateFlow.md
-      - PGUTF P M Groups: developer-guide/UploadPMGroupsTemplateFlow.md
-      - PMUTF Payment Methods: developer-guide/UploadPaymentMethodsTemplateFlow.md
-      - CAUTF Categories: developer-guide/UploadCategoriesTemplateFlow.md
-      - PRUTF Product: developer-guide/UploadProductsTemplateFlow.md
+      - UDUTF User: developer_guide/UploadUserTemplateFlow.md
+      - PRUTF Permissions: developer_guide/UploadPermissionsTemplateFlow.md
+      - ROUTF Roles: developer_guide/UploadRolesTemplateFlow.md
+      - PRUTF Printers: developer_guide/UploadPrintersTemplateFlow.md
+      - PSUTF Points Of Sale: developer_guide/UploadPointsOfSaleTemplateFlow.md
+      - PRUTF Platforms: developer_guide/UploadPlatformsTemplateFlow.md
+      - TAUTF Taxes: developer_guide/UploadTaxesTemplateFlow.md
+      - PGUTF P M Groups: developer_guide/UploadPMGroupsTemplateFlow.md
+      - PMUTF Payment Methods: developer_guide/UploadPaymentMethodsTemplateFlow.md
+      - CAUTF Categories: developer_guide/UploadCategoriesTemplateFlow.md
+      - PRUTF Product: developer_guide/UploadProductsTemplateFlow.md

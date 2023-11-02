@@ -18,7 +18,7 @@ def extraer_informacion(nombre_archivo):
             elif buscando_actores:
                 actores = linea.strip()
                 # Crea un archivo .puml para este caso de uso
-                with open(f'../../docs/developer-guide/diagrams/uc/uc_puml/FL_ADMIN_{clave}.puml', 'w') as puml_file:
+                with open(f'../../docs/developer_guide/diagrams/uc/uc_puml/FL_ADMIN_{clave}.puml', 'w') as puml_file:
                     puml_file.write('@startuml\n\n')
                     puml_file.write('left to right direction\n\n')
                     puml_file.write(f'    usecase "{nombre_uc}" as UserCase\n')

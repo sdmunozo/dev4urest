@@ -22,6 +22,6 @@ def convert_puml_to_png(input_folder, output_folder):
     print(f"{len(puml_files)} archivos .puml han sido convertidos a .png.")  # Cambiado a PNG
 
 if __name__ == "__main__":
-    input_folder_path = "../../docs/developer-guide/diagrams/uc/uc_puml"
-    output_folder_path = "../../docs/developer-guide/diagrams/uc/uc_png"
+    input_folder_path = "../../docs/developer_guide/diagrams/uc/uc_puml"
+    output_folder_path = "../../docs/developer_guide/diagrams/uc/uc_png"
     convert_puml_to_png(input_folder_path, output_folder_path)  # Cambiado a PNG

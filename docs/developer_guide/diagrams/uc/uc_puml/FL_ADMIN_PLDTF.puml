@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "PLDTF :  Download Platforms Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

@@ -269,7 +269,7 @@ def main():
     print("Iniciando programa...")
     #archivo_entrada = "comandos_mark.txt"
     archivo_entrada = "comandos_con_claves_dot.txt"
-    ruta_destino = "../../docs/developer-guide/"
+    ruta_destino = "../../docs/developer_guide/"
 
     if not os.path.exists(archivo_entrada):
         print(f"Error: El archivo {archivo_entrada} no existe.")
