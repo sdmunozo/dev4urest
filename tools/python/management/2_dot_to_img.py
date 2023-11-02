@@ -3,9 +3,9 @@ import subprocess
 
 def convert_dot_to_png_and_svg():
     # Ruta de entrada y salida
-    input_path = '../../docs/diagrams/fl/fl_dot'
-    output_path_png = '../../docs/diagrams/fl/fl_png'
-    output_path_svg = '../../docs/diagrams/fl/fl_svg'
+    input_path = '../../docs/developer-guide/diagrams/fl/fl_dot'
+    output_path_png = '../../docs/developer-guide/diagrams/fl/fl_png'
+    output_path_svg = '../../docs/developer-guide/diagrams/fl/fl_svg'
     
     # Verificar si Graphviz está instalado
     try:

@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "ROUTF :  Upload Roles Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

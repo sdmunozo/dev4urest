@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "PMUTF :  Upload Payment Methods Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

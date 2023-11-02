@@ -17,7 +17,7 @@
 
 ## DIAGRAMA: Upload Platforms Template
 
-![PRUTF : Upload Platforms Template ](../diagrams/uc/uc_png/FL_ADMIN_PRUTF.png)
+![PRUTF : Upload Platforms Template ](../developer)
 
 
 ## FLUJO BÁSICO: Upload Platforms Template
@@ -40,7 +40,7 @@
 ## Diagrama de Flujo
 
 <div style="border: 1px solid black; width: 800px; height: 600px; overflow: hidden;">
-    <object data="../../../diagrams/fl/fl_svg/FL_ADMIN_PRUTF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
+    <object data="/developer-guide/diagrams/fl/fl_svg/FL_ADMIN_PRUTF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
 </div>
 
 <script>

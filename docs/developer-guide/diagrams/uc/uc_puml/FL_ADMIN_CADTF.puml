@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "CADTF :  Download Categories Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

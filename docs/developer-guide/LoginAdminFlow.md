@@ -17,7 +17,7 @@
 
 ## DIAGRAMA: Login Admin
 
-![LAF : Login Admin ](../diagrams/uc/uc_png/FL_ADMIN_LAF.png)
+![LAF : Login Admin ](../developer)
 
 
 ## FLUJO BÁSICO: Login Admin
@@ -35,7 +35,7 @@
 ## Diagrama de Flujo
 
 <div style="border: 1px solid black; width: 800px; height: 600px; overflow: hidden;">
-    <object data="../../../diagrams/fl/fl_svg/FL_ADMIN_LAF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
+    <object data="/developer-guide/diagrams/fl/fl_svg/FL_ADMIN_LAF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
 </div>
 
 <script>

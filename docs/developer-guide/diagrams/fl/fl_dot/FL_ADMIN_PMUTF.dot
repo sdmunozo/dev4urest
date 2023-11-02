@@ -1,0 +1,216 @@
+digraph UploadPaymentMethodsTemplateFlow {
+    node [shape=box];
+    edge [dir=forward];
+
+    //Contenido
+
+PMUTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                    <TR>
+                        <TD CELLPADDING="4">PMUTF01: Viene de:</TD>
+                    </TR>
+                    <TR>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF128.</FONT></TD>
+                    </TR>
+                </TABLE>>];
+
+PMUTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                    <TR>
+                        <TD CELLPADDING="4">PMUTF01: Viene de:</TD>
+                    </TR>
+                    <TR>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF128.</FONT></TD>
+                    </TR>
+                </TABLE>>];
+
+PMUTF02 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF02: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"UploadFileModal('Payment Methods')".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF03 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF03: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Cargar Archivo ['paymentmethods.csv']".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF04 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF04: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Ejecuta: </FONT>"Upload File('paymentmethods.csv')".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF05 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF05: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Success".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_obj: </FONT>"PaymentMethodsUploadResult.csv".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF06 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF06: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Record not found.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"Hay un problema con el servidor.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF07 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF07: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Invalid request format.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"Solicitud incompleta o mal formateada.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF08 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF08: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Database not available".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"No hay conexión con la base de datos.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF09 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PMUTF09: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF42.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PMUTF10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF10: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MessageModal[dis_msg, type]".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF11 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF11: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"MessageModal : Yes".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF12 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PMUTF12: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"MessageModal : No".</TD>
+    </TR>
+</TABLE>>];
+
+PMUTF13 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PMUTF13: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PMUTF13 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PMUTF13: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PMUTF14 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PMUTF14: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">PMUTF04.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PMUTF15 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PMUTF15: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PMUTF15 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PMUTF15: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PMUTF16 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PMUTF16: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF42.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PMUTF01 -> PMUTF02;
+PMUTF02 -> PMUTF03;
+PMUTF03 -> PMUTF04;
+PMUTF04 -> PMUTF05 [label="code: '200'", color="green"];
+PMUTF04 -> PMUTF06 [label="code: '404'", color="red"];
+PMUTF04 -> PMUTF07 [label="code: '400'", color="red"];
+PMUTF04 -> PMUTF08 [label="code: 'E1'", color="red"];
+PMUTF06 -> PMUTF10;
+PMUTF07 -> PMUTF10;
+PMUTF08 -> PMUTF10;
+PMUTF05 -> PMUTF09;
+PMUTF10 -> PMUTF11;
+PMUTF10 -> PMUTF12;
+PMUTF11 -> PMUTF13;
+PMUTF13 -> PMUTF14;
+PMUTF12 -> PMUTF15;
+PMUTF15 -> PMUTF16;
+}

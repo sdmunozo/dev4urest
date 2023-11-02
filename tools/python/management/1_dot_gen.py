@@ -28,7 +28,7 @@ def process_diagram(diagram_commands):
     comandos = []
     diagram_name = diagram_commands.pop(0)
     three_digit_key = diagram_commands.pop(0)
-    filename = f"../../docs/diagrams/fl/fl_dot/FL_ADMIN_{three_digit_key}.dot"
+    filename = f"../../docs/developer-guide/diagrams/fl/fl_dot/FL_ADMIN_{three_digit_key}.dot"
     comandos.append("// INICIA > " + three_digit_key + " : " + diagram_name)
     comandos.append("")
     comandos.append("NF")
@@ -48,9 +48,7 @@ def process_diagram(diagram_commands):
     comandos.append("DEF-END")
     comandos.append("")
     comandos.append("## DIAGRAMA: " + re.sub(r'([a-z])([A-Z])', r'\1 \2', diagram_name).replace("Flow", ""))
-    #ruta_img = "../../../docs/diagrams/svg/uc_" + re.sub(r'([a-z])([A-Z])', r'\1\2', diagram_name.replace("Flow", "")) + ".png"
-    # ../diagrams/uc/uc_png/FL_ADMIN_CADTF.png
-    ruta_img = "../diagrams/uc/uc_png/FL_ADMIN_" + three_digit_key + ".png"
+    ruta_img = "../developer-guide/diagrams/uc/uc_png/FL_ADMIN_" + three_digit_key + ".png"
     alt_text = three_digit_key + " : " + re.sub(r'([a-z])([A-Z])', r'\1 \2', diagram_name).replace("Flow", "")
     comandos.append("IMG-" + alt_text + "-" + ruta_img)
     comandos.append("")

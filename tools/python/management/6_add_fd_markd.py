@@ -30,7 +30,7 @@ def encontrar_clave_y_agregar_codigo(ruta):
                     codigo_a_insertar = (
                         f"\n\n## Diagrama de Flujo\n\n"
                         f"<div style=\"border: 1px solid black; width: 800px; height: 600px; overflow: hidden;\">\n"
-                        f"    <object data=\"../../../diagrams/fl/fl_svg/FL_ADMIN_{clave}.svg\" type=\"image/svg+xml\" id=\"diagramaSvg\" width=\"100%\" height=\"100%\"></object>\n"
+                        f"    <object data=\"/developer-guide/diagrams/fl/fl_svg/FL_ADMIN_{clave}.svg\" type=\"image/svg+xml\" id=\"diagramaSvg\" width=\"100%\" height=\"100%\"></object>\n"
                         "</div>\n\n"
                         "<script>\n"
                         "window.addEventListener(\"load\", function() {\n"

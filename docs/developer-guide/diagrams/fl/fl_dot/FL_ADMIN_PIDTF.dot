@@ -1,0 +1,179 @@
+digraph DownloadProductsTemplateFlow {
+    node [shape=box];
+    edge [dir=forward];
+
+    //Contenido
+
+PIDTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                    <TR>
+                        <TD CELLPADDING="4">PIDTF01: Viene de:</TD>
+                    </TR>
+                    <TR>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF23.</FONT></TD>
+                    </TR>
+                </TABLE>>];
+
+PIDTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                    <TR>
+                        <TD CELLPADDING="4">PIDTF01: Viene de:</TD>
+                    </TR>
+                    <TR>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF23.</FONT></TD>
+                    </TR>
+                </TABLE>>];
+
+PIDTF02 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PIDTF02: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Ejecuta: </FONT>"Download Template(Products)".</TD>
+    </TR>
+</TABLE>>];
+
+PIDTF03 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PIDTF03: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Success".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_obj: </FONT>"ProductsTemplate.csv".</TD>
+    </TR>
+</TABLE>>];
+
+PIDTF04 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PIDTF04: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Record not found.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"Hay un problema con el servidor.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+PIDTF05 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PIDTF05: <FONT COLOR="black">Response</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">res_msg: </FONT>"Database not available".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">dis_msg: </FONT>"No hay conexión con la base de datos.".</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="purple">type: </FONT>"error".</TD>
+    </TR>
+</TABLE>>];
+
+PIDTF06 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PIDTF06: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF22.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PIDTF07 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PIDTF07: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MessageModal[dis_msg, type]".</TD>
+    </TR>
+</TABLE>>];
+
+PIDTF08 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PIDTF08: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"MessageModal : Yes".</TD>
+    </TR>
+</TABLE>>];
+
+PIDTF09 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">PIDTF09: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"MessageModal : No".</TD>
+    </TR>
+</TABLE>>];
+
+PIDTF10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PIDTF10: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PIDTF10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PIDTF10: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PIDTF11 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PIDTF11: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF16.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PIDTF12 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PIDTF12: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PIDTF12 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+                <TR>
+                    <TD CELLPADDING="4">PIDTF12: <FONT COLOR="green">Sistema</FONT></TD>
+                </TR>
+                <TR>
+                    <TD CELLPADDING="4"><FONT COLOR="blue">Cierra</FONT>: "MessageModal"</TD>
+                </TR>
+                </TABLE>>];
+
+PIDTF13 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="black">PIDTF13: Redirige a:</FONT></TD>
+        </TR>
+        <TR>
+            <TD CELLPADDING="4"><FONT COLOR="blue">PDDTF02.</FONT></TD>
+        </TR>
+    </TABLE>>];
+
+PIDTF01 -> PIDTF02;
+PIDTF02 -> PIDTF03 [label="code: '200'", color="green"];
+PIDTF02 -> PIDTF04 [label="code: '404'", color="red"];
+PIDTF02 -> PIDTF05 [label="code: 'E1'", color="red"];
+PIDTF03 -> PIDTF06;
+PIDTF04 -> PIDTF07;
+PIDTF07 -> PIDTF08;
+PIDTF07 -> PIDTF09;
+PIDTF09 -> PIDTF10;
+PIDTF10 -> PIDTF11;
+PIDTF08 -> PIDTF12;
+PIDTF12 -> PIDTF13;
+PIDTF05 -> PIDTF07;
+}
