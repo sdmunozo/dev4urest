@@ -1,0 +1,1798 @@
+// MPF
+ND
+ManagePageFlow
+MPF
+
+TS-MUE-LoginAdminDashboardPage
+TS-EJF-LAF : LoginAdminFlow-Valida el usuario que intenta acceder-obj.B_User
+TS-MUE-AdminDashboardPage
+TS-WAI
+
+// --- TA-SEL Commands ---
+
+TA-SEL-Menú/Catálogo/Productos
+TA-SEL-Menú/Catálogo/Categorías
+TA-SEL-Menú/Finanzas/Métodos de Pago
+TA-SEL-Menú/Finanzas/Grupos de Métodos de Pago
+TA-SEL-Menú/Finanzas/Impuestos
+TA-SEL-Menú/Plataforma/Plataformas
+TA-SEL-Menú/Plataforma/Puntos de Venta
+TA-SEL-Menú/Plataforma/Impresoras
+TA-SEL-Menú/Acceso/Usuarios
+TA-SEL-Menú/Acceso/Roles
+TA-SEL-Menú/Acceso/Permisos
+
+// Product
+TS-MUE-MainProductsListPage
+TS-EJF-SPF : ShowProductsFlow-Permite ver la lista de productos.-N/A
+TS-WAI
+TA-SEL-Administrar Productos
+TA-SEL-Producto
+TS-MUE-ManageProductsPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-PRDTF : DownloadProductsTemplateFlow-Permite descargar la plantilla para cargar productos.-N/A
+TS-EJF-PRUTF : UploadProductTemplateFlow-Permite cargar una plantilla de productos para crearlos de forma masiva.-N/A
+TS-EJF-CUF : CreateProductFlow-Permite crear un nuevo producto manualmente.-N/A
+
+// Categories
+TS-MUE-MainCategoriesListPage
+TS-EJF-SCF : ShowCategoriesFlow-Permite ver la lista de categorías.-N/A
+TS-WAI
+TA-SEL-Administrar Categorías
+TA-SEL-Categoría
+TS-MUE-ManageCategoriesPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-CADTF : DownloadCategoriesTemplateFlow-Permite descargar la plantilla para cargar categorías.-N/A
+TS-EJF-CAUTF : UploadCategoriesTemplateFlow-Permite cargar una plantilla de categorías para crearlas de forma masiva.-N/A
+TS-EJF-CCF : CreateCategoryFlow-Permite crear una nueva categoría manualmente.-N/A
+
+// Payment Methods
+TS-MUE-MainMethodsPaymentListPage
+TS-EJF-SMPF : ShowMethodsPaymentFlow-Permite ver la lista de métodos de pago.-N/A
+TS-WAI
+TA-SEL-Administrar Métodos de Pago
+TA-SEL-Método de Pago
+TS-MUE-ManageMethodsPaymentPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-PMDTF : DownloadPaymentMethodsTemplateFlow-Permite descargar la plantilla para cargar métodos de pago.-N/A
+TS-EJF-PMUTF : UploadPaymentMethodsTemplateFlow-Permite cargar una plantilla de métodos de pago para crearlos de forma masiva.-N/A
+TS-EJF-FPF : CreateMethodPaymentFlow-Permite crear un nuevo método de pago manualmente.-N/A
+
+
+// Payment Method PMGroups
+TS-MUE-MainPMPMGroupsListPage
+TS-EJF-SGF : ShowPMGroupsFlow-Permite ver la lista de grupos.-N/A
+TS-WAI
+TA-SEL-Administrar Grupos
+TA-SEL-Grupo
+TS-MUE-ManagePMGroupsPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-PGDTF : DownloadPMGroupsTemplateFlow-Permite descargar la plantilla para cargar grupos.-N/A
+TS-EJF-PGUTF : UploadPMGroupsTemplateFlow-Permite cargar una plantilla de grupos para crearlos de forma masiva.-N/A
+TS-EJF-FGF : CreatePMGroupFlow-Permite crear un nuevo grupo manualmente.-N/A
+
+// Taxes
+TS-MUE-MainTaxesListPage
+TS-EJF-STF : ShowTaxesFlow-Permite ver la lista de impuestos.-N/A
+TS-WAI
+TA-SEL-Administrar Impuestos
+TA-SEL-Impuesto
+TS-MUE-ManageTaxesPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-TADTF : DownloadTaxesTemplateFlow-Permite descargar la plantilla para cargar impuestos.-N/A
+TS-EJF-TAUTF : UploadTaxesTemplateFlow-Permite cargar una plantilla de impuestos para crearlos de forma masiva.-N/A
+TS-EJF-FTF : CreateTaxFlow-Permite crear un nuevo impuesto manualmente.-N/A
+
+// Platforms
+TS-MUE-MainPlatformsListPage
+TS-EJF-SPLF : ShowPlatformsFlow-Permite ver la lista de plataformas.-N/A
+TS-WAI
+TA-SEL-Administrar Plataformas
+TA-SEL-Plataforma
+TS-MUE-ManagePlatformsPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-PLDTF : DownloadPlatformsTemplateFlow-Permite descargar la plantilla para cargar plataformas.-N/A
+TS-EJF-PLUTF : UploadPlatformsTemplateFlow-Permite cargar una plantilla de plataformas para crearlas de forma masiva.-N/A
+TS-EJF-PLF : CreatePlatformFlow-Permite crear una nueva plataforma manualmente.-N/A
+
+
+// Points of Sale
+TS-MUE-MainPointsSaleListPage
+TS-EJF-SPVF : ShowPointsSaleFlow-Permite ver la lista de puntos de venta.-N/A
+TS-WAI
+TA-SEL-Administrar Puntos de Venta
+TA-SEL-Punto de Venta
+TS-MUE-ManagePointsSalePage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-PSDTF : DownloadPointsOfSaleTemplateFlow-Permite descargar la plantilla para cargar puntos de venta.-N/A
+TS-EJF-PSUTF : UploadPointsOfSaleTemplateFlow-Permite cargar una plantilla de puntos de venta para crearlos de forma masiva.-N/A
+TS-EJF-PVF : CreatePointSaleFlow-Permite crear un nuevo punto de venta manualmente.-N/A
+
+// Printers
+TS-MUE-MainPrintersListPage
+TS-EJF-SPRF : ShowPrintersFlow-Permite ver la lista de impresoras.-N/A
+TS-WAI
+TA-SEL-Administrar Impresoras
+TA-SEL-Impresora
+TS-MUE-ManagePrintersPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-PIDTF : DownloadPrintersTemplateFlow-Permite descargar la plantilla para cargar impresoras.-N/A
+TS-EJF-PTUTF : UploadPrintersTemplateFlow-Permite cargar una plantilla de impresoras para crearlas de forma masiva.-N/A
+TS-EJF-PRF : CreatePrinterFlow-Permite crear una nueva impresora manualmente.-N/A
+
+// Users
+TS-MUE-MainUsersListPage
+TS-EJF-SUF : ShowUsersFlow-Permite ver la lista de usuarios.-N/A
+TS-WAI
+TA-SEL-Administrar Usuarios
+TA-SEL-Usuario
+TS-MUE-ManageUsersPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-USDTF : DownloadUserTemplateFlow-Permite descargar la plantilla para cargar usuarios.-N/A
+TS-EJF-USUTF : UploadUserTemplateFlow-Permite cargar una plantilla de usuarios para crearlos de forma masiva.-N/A
+TS-EJF-MUF : CreateUserFlow-Permite crear un nuevo usuario manualmente.-N/A
+
+// Roles
+TS-MUE-MainRolesListPage
+TS-EJF-SRF : ShowRolesFlow-Permite ver la lista de roles de usuario.-N/A
+TS-WAI
+TA-SEL-Administrar Roles
+TA-SEL-Rol
+TS-MUE-ManageRolesPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-RODTF : DownloadRolesTemplateFlow-Permite descargar la plantilla para cargar roles.-N/A
+TS-EJF-ROUTF : UploadRolesTemplateFlow-Permite cargar una plantilla de roles para crearlos de forma masiva.-N/A
+TS-EJF-RAF : CreateRoleFlow-Permite crear un nuevo rol manualmente.-N/A
+
+// Permissions
+TS-MUE-MainPermissionsListPage
+TS-EJF-SPAF : ShowPermissionsFlow-Permite ver la lista de permisos de acceso.-N/A
+TS-WAI
+TA-SEL-Administrar Permisos
+TA-SEL-Permiso
+TS-MUE-ManagePermissionsPage
+TS-WAI
+TA-SEL-Descargar Plantilla
+TA-SEL-Seleccionar archivo
+TA-SEL-Registro Manual
+TS-EJF-PEDTF : DownloadPermissionsTemplateFlow-Permite descargar la plantilla para cargar permisos.-N/A
+TS-EJF-PNUTF : UploadPermissionsTemplateFlow-Permite cargar una plantilla de permisos para crearlos de forma masiva.-N/A
+TS-EJF-PAF : CreatePermissionFlow-Permite crear un nuevo permiso manualmente.-N/A
+
+
+// TS-MUE-ProductsListPage
+// TS-EJE-Get Products List
+// Codigos
+// TR-RES-Success-UserTemplate.csv
+// TR-BAN-Record not found.-Hay un problema con el servidor.-error
+// TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+AR-01-02
+AR-02-03
+AR-03-04
+
+AR-04-05
+AR-04-06
+AR-04-07
+AR-04-08
+AR-04-09
+AR-04-10
+AR-04-11
+AR-04-12
+AR-04-13
+AR-04-14
+AR-04-15
+
+// Product
+AR-05-16
+AR-16-17
+AR-17-18
+AR-18-19
+AR-18-20
+AR-19-21
+AR-21-22
+AR-22-23
+AR-22-24
+AR-22-25
+AR-23-26
+AR-24-27
+AR-25-28
+
+// Categories
+AR-06-29
+AR-29-30
+AR-30-31
+AR-31-32
+AR-31-33
+AR-32-34
+AR-34-35
+AR-35-36
+AR-35-37
+AR-35-38
+AR-36-39
+AR-37-40
+AR-38-41
+
+// Metodos de Pago
+AR-07-42
+AR-42-43
+AR-43-44
+AR-44-45
+AR-44-46
+AR-45-47
+AR-47-48
+AR-48-49
+AR-48-50
+AR-48-51
+AR-49-52
+AR-50-53
+AR-51-54
+
+// PMGroups
+AR-08-55
+AR-55-56
+AR-56-57
+AR-57-58
+AR-57-59
+AR-58-60
+AR-60-61
+AR-61-62
+AR-61-63
+AR-61-64
+AR-62-65
+AR-63-66
+AR-64-67
+
+// Taxes
+AR-09-68
+AR-68-69
+AR-69-70
+AR-70-71
+AR-70-72
+AR-71-73
+AR-73-74
+AR-74-75
+AR-74-76
+AR-74-77
+AR-75-78
+AR-76-79
+AR-77-80
+
+// Platforms
+AR-10-81
+AR-81-82
+AR-82-83
+AR-83-84
+AR-83-85
+AR-84-86
+AR-86-87
+AR-87-88
+AR-87-89
+AR-87-90
+AR-88-91
+AR-89-92
+AR-90-93
+
+// Points of Sale
+AR-11-94
+AR-94-95
+AR-95-96
+AR-96-97
+AR-96-98
+AR-97-99
+AR-99-100
+AR-100-101
+AR-100-102
+AR-100-103
+AR-101-104
+AR-102-105
+AR-103-106
+
+// Printers
+AR-12-107
+AR-107-108
+AR-108-109
+AR-109-110
+AR-109-111
+AR-110-112
+AR-112-113
+AR-113-114
+AR-113-115
+AR-113-116
+AR-114-117
+AR-115-118
+AR-116-119
+
+// Users
+AR-13-120
+AR-120-121
+AR-121-122
+AR-122-123
+AR-122-124
+AR-123-125
+AR-125-126
+AR-126-127
+AR-126-128
+AR-126-129
+AR-127-130
+AR-128-131
+AR-129-132
+
+// Roles
+AR-14-133
+AR-133-134
+AR-134-135
+AR-135-136
+AR-135-137
+AR-136-138
+AR-138-139
+AR-139-140
+AR-139-141
+AR-139-142
+AR-140-143
+AR-141-144
+AR-142-145
+
+// Permissions
+AR-15-146
+AR-146-147
+AR-147-148
+AR-148-149
+AR-148-150
+AR-149-151
+AR-151-152
+AR-152-153
+AR-152-154
+AR-152-155
+AR-153-156
+AR-154-157
+AR-155-158
+
+
+WR
+
+
+// 01-LAF
+
+ND
+LoginAdminFlow
+LAF
+
+VIE1-MPF01
+TA-ING-B_User.username, B_User.password
+TS-EJE-Login Pin[B_User.username, B_User.password]
+
+TR-RES-Success-B_User.
+TR-BAN-Record not found.-Clave incorrecta vuelva a intentar-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Login Pin[B_User.pos_pin] : 200
+RED-MPF03
+
+// Login Pin[B_User.pos_pin] : 200
+TS-MUE-MessageBanner[dis_msg, type]
+TS-EJE-Logout
+RED-MPF01
+
+// FLECHAS
+AR-01-02
+AR-02-03
+ARG-200-03-04
+ARR-404-03-05
+ARR-E1-03-06
+AR-04-07
+AR-05-08
+AR-06-08
+AR-08-09
+AR-09-10
+WR
+
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// DOWNLOAD
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// **Users:**
+
+// Download User Template Flow
+ND
+DownloadUserTemplateFlow
+USDTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(User)
+
+// Codigos
+TR-RES-Success-UserTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Users) : Código 200
+RED-MPF126
+
+// Download Template(Users) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Users) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF120
+
+// Download Template(Users) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-USDTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+// **Permissions:**
+
+// Download Permissions Template Flow
+ND
+DownloadPermissionsTemplateFlow
+PEDTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Permissions)
+
+// Codigos
+TR-RES-Success-PermissionsTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Permissions) : Código 200
+RED-MPF152
+
+// Download Template(Permissions) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Permissions) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF146
+
+// Download Template(Permissions) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-PEDTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **Roles:**
+
+// Download Roles Template Flow
+ND
+DownloadRolesTemplateFlow
+RODTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Roles)
+
+// Codigos
+TR-RES-Success-RolesTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Roles) : Código 200
+RED-MPF139
+
+// Download Template(Roles) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Roles) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF133
+
+// Download Template(Roles) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-RODTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **Printers:**
+
+// Download Printers Template Flow
+ND
+DownloadPrintersTemplateFlow
+PIDTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Printers)
+
+// Codigos
+TR-RES-Success-PrintersTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Printers) : Código 200
+RED-MPF113
+
+// Download Template(Printers) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Printers) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF107
+
+// Download Template(Printers) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-PIDTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **Points of Sale:**
+
+// Download Points of Sale Template Flow
+ND
+DownloadPointsOfSaleTemplateFlow
+PSDTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Points of Sale)
+
+// Codigos
+TR-RES-Success-PointsOfSaleTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Points of Sale) : Código 200
+RED-MPF100
+
+// Download Template(Points of Sale) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Points of Sale) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF94
+
+// Download Template(Points of Sale) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-PSDTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **Platforms:**
+
+// Download Platforms Template Flow
+ND
+DownloadPlatformsTemplateFlow
+PLDTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Platforms)
+
+// Codigos
+TR-RES-Success-PlatformsTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Platforms) : Código 200
+RED-MPF87
+
+// Download Template(Platforms) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Platforms) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF81
+
+// Download Template(Platforms) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-PLDTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **Taxes:**
+
+// Download Taxes Template Flow
+ND
+DownloadTaxesTemplateFlow
+TADTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Taxes)
+
+// Codigos
+TR-RES-Success-TaxesTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Taxes) : Código 200
+RED-MPF74
+
+// Download Template(Taxes) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Taxes) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF68
+
+// Download Template(Taxes) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-TADTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **PMGroups:**
+
+// Download PMGroups Template Flow
+ND
+DownloadPMGroupsTemplateFlow
+PGDTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(PMGroups)
+
+// Codigos
+TR-RES-Success-PMGroupsTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(PMGroups) : Código 200
+RED-MPF61
+
+// Download Template(PMGroups) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(PMGroups) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF55
+
+// Download Template(PMGroups) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-PGDTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **Payment Methods:**
+
+// Download Payment Methods Template Flow
+ND
+DownloadPaymentMethodsTemplateFlow
+PMDTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Payment Methods)
+
+// Codigos
+TR-RES-Success-PaymentMethodsTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Payment Methods) : Código 200
+RED-MPF48
+
+// Download Template(Payment Methods) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Payment Methods) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF42
+
+// Download Template(Payment Methods) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-PMDTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **Categories:**
+
+// Download Categories Template Flow
+ND
+DownloadCategoriesTemplateFlow
+CADTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Categories)
+
+// Codigos
+TR-RES-Success-CategoriesTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Categories) : Código 200
+RED-MPF35
+
+// Download Template(Categories) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Categories) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF29
+
+// Download Template(Categories) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-CADTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+
+
+
+// **Products:**
+
+// Download Products Template Flow
+ND
+DownloadProductsTemplateFlow
+PIDTF
+VIE1-MPF23
+
+// Flujo Básico
+TS-EJE-Download Template(Products)
+
+// Codigos
+TR-RES-Success-ProductsTemplate.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// Download Template(Products) : Código 200
+RED-MPF22
+
+// Download Template(Products) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Download Template(Products) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-MPF16
+
+// Download Template(Products) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-PDDTF02
+
+// Flechas
+AR-01-02
+ARG-200-02-03
+ARR-404-02-04
+ARR-E1-02-05
+
+// cod 200
+AR-03-06
+
+// cod 404 E1
+AR-04-07
+AR-07-08
+AR-07-09
+
+// cod 404 E1 : no
+AR-09-10
+AR-10-11
+
+// cod 404 E1 : si
+AR-08-12
+AR-12-13
+
+// CONEXION FLUJO E1
+AR-05-07
+WR
+
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+// UPLOAD - UploadUserTemplateFlow
+// - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+// **UploadFile:** User
+
+// Upload User Template Flow
+ND
+UploadUserTemplateFlow
+USUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('User')
+TA-SEL-Cargar Archivo ['users.csv']
+TS-EJE-Upload File('users.csv')
+
+// Codigos
+TR-RES-Success-UserUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('users.csv') : 200
+RED-MPF120
+
+// Upload Template(Users) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Users) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-USUTF04
+
+// Upload Template(Users) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF120
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Permissions
+
+// Upload Permissions Template Flow
+ND
+UploadPermissionsTemplateFlow
+PRUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Permissions')
+TA-SEL-Cargar Archivo ['permissions.csv']
+TS-EJE-Upload File('permissions.csv')
+
+// Codigos
+TR-RES-Success-PermissionsUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('permissions.csv') : 200
+RED-MPF146
+
+// Upload Template(Permissions) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Permissions) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-PRUTF04
+
+// Upload Template(Permissions) : Código 404 E1 : si
+TS-CLO-MessageModal
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Roles
+
+// Upload Roles Template Flow
+ND
+UploadRolesTemplateFlow
+ROUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Roles')
+TA-SEL-Cargar Archivo ['roles.csv']
+TS-EJE-Upload File('roles.csv')
+
+// Codigos
+TR-RES-Success-RolesUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('roles.csv') : 200
+RED-MPF133
+
+// Upload Template(Roles) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Roles) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-ROUTF04
+
+// Upload Template(Roles) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF133
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Printers
+
+// Upload Printers Template Flow
+ND
+UploadPrintersTemplateFlow
+PRUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Printers')
+TA-SEL-Cargar Archivo ['printers.csv']
+TS-EJE-Upload File('printers.csv')
+
+// Codigos
+TR-RES-Success-PrintersUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('printers.csv') : 200
+RED-MPF107
+
+// Upload Template(Printers) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Printers) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-PRUTF04
+
+// Upload Template(Printers) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF107
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Points of Sale
+
+// Upload Points of Sale Template Flow
+ND
+UploadPointsOfSaleTemplateFlow
+PSUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Points of Sale')
+TA-SEL-Cargar Archivo ['pointsofsale.csv']
+TS-EJE-Upload File('pointsofsale.csv')
+
+// Codigos
+TR-RES-Success-PointsOfSaleUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('pointsofsale.csv') : 200
+RED-MPF94
+
+// Upload Template(Points of Sale) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Points of Sale) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-PSUTF04
+
+// Upload Template(Points of Sale) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF94
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Platforms
+
+// Upload Platforms Template Flow
+ND
+UploadPlatformsTemplateFlow
+PRUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Platforms')
+TA-SEL-Cargar Archivo ['platforms.csv']
+TS-EJE-Upload File('platforms.csv')
+
+// Codigos
+TR-RES-Success-PlatformsUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('platforms.csv') : 200
+RED-MPF81
+
+// Upload Template(Platforms) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Platforms) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-PRUTF04
+
+// Upload Template(Platforms) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF81
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Taxes
+
+// Upload Taxes Template Flow
+ND
+UploadTaxesTemplateFlow
+TAUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Taxes')
+TA-SEL-Cargar Archivo ['taxes.csv']
+TS-EJE-Upload File('taxes.csv')
+
+// Codigos
+TR-RES-Success-TaxesUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('taxes.csv') : 200
+RED-MPF68
+
+// Upload Template(Taxes) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Taxes) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-TAUTF04
+
+// Upload Template(Taxes) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF68
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** PMGroups
+
+// Upload PMGroups Template Flow
+ND
+UploadPMGroupsTemplateFlow
+PGUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('PMGroups')
+TA-SEL-Cargar Archivo ['pmgroups.csv']
+TS-EJE-Upload File('pmgroups.csv')
+
+// Codigos
+TR-RES-Success-PMGroupsUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('pmgroups.csv') : 200
+RED-MPF55
+
+// Upload Template(PMGroups) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(PMGroups) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-PGUTF04
+
+// Upload Template(PMGroups) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF55
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Payment Methods
+
+// Upload Payment Methods Template Flow
+ND
+UploadPaymentMethodsTemplateFlow
+PMUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Payment Methods')
+TA-SEL-Cargar Archivo ['paymentmethods.csv']
+TS-EJE-Upload File('paymentmethods.csv')
+
+// Codigos
+TR-RES-Success-PaymentMethodsUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('paymentmethods.csv') : 200
+RED-MPF42
+
+// Upload Template(Payment Methods) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Payment Methods) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-PMUTF04
+
+// Upload Template(Payment Methods) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF42
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Categories
+
+// Upload Categories Template Flow
+ND
+UploadCategoriesTemplateFlow
+CAUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Categories')
+TA-SEL-Cargar Archivo ['categories.csv']
+TS-EJE-Upload File('categories.csv')
+
+// Codigos
+TR-RES-Success-CategoriesUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('categories.csv') : 200
+RED-MPF29
+
+// Upload Template(Categories) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Categories) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-CAUTF04
+
+// Upload Template(Categories) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF29
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+// **UploadFile:** Product
+
+// Upload Products Template Flow
+ND
+UploadProductsTemplateFlow
+PRUTF
+VIE1-MPF128
+
+// Flujo Básico
+
+// Flujo Seleccionar archivo
+TS-MUE-UploadFileModal('Product')
+TA-SEL-Cargar Archivo ['products.csv']
+TS-EJE-Upload File('products.csv')
+
+// Codigos
+TR-RES-Success-ProductUploadResult.csv
+TR-BAN-Record not found.-Hay un problema con el servidor.-error
+TR-BAN-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-BAN-Database not available-No hay conexión con la base de datos.-error
+
+// EJE-Upload File('products.csv') : 200
+RED-MPF16
+
+// Upload Template(Products) : Código 404 E1
+TS-MUE-MessageModal[dis_msg, type]
+TA-SEL-MessageModal : Yes
+TA-SEL-MessageModal : No
+
+// Upload Template(Products) : Código 404 E1 : no
+TS-CLO-MessageModal
+RED-PRUTF04
+
+// Upload Template(Products) : Código 404 E1 : si
+TS-CLO-MessageModal
+RED-MPF16
+
+// Flechas
+AR-01-02
+AR-02-03
+AR-03-04
+
+ARG-200-04-05
+ARR-404-04-06
+ARR-400-04-07
+ARR-E1-04-08
+
+AR-06-10
+AR-07-10
+AR-08-10
+
+AR-05-09
+
+AR-10-11
+AR-10-12
+
+AR-11-13
+AR-13-14
+
+AR-12-15
+AR-15-16
+WR
+
+
+

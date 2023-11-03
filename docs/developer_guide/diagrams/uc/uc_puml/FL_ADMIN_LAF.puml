@@ -1,8 +1,0 @@
-@startuml
-
-left to right direction
-
-    usecase "LAF :  Login Admin" as UserCase
-    "Administrador" --> UserCase
-
-@enduml

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Checklist de Tareas</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+  }
+  .checklist-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .task {
+    background-color: #ffffe0; /* Amarillo pastel */
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .task.completed {
+    background-color: #90ee90; /* Verde pastel */
+  }
+  .task label {
+    margin: 0;
+    flex-grow: 1;
+  }
+  .task-time {
+    margin-left: 10px;
+    white-space: nowrap;
+  }
+  .delete-btn {
+    border: none;
+    background-color: #ff6347;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  #new-task-input {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 22px);
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  #add-task-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #add8e6;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+</style>
+</head>
+<body>
+<div class="checklist-container">
+  <h1>Checklist de Tareas</h1>
+  <input type="text" id="new-task-input" placeholder="Agregar nueva tarea..." />
+  <button id="add-task-btn">Agregar Tarea</button>
+  <div id="task-list">
+    <!-- Las tareas se insertarán aquí dinámicamente -->
+  </div>
+</div>
+
+<script>
+// Inicialización de la lista de tareas desde LocalStorage o predeterminadas si no hay nada guardado
+const tasks = JSON.parse(localStorage.getItem('tasks')) || [
+  { text: 'Regresar a version anterior de coding y hacerla jalar', completed: false, time: '' },
+  { text: 'Realizar Flujo de documentación para User Download Template', completed: false, time: '' },
+  // ... Añadir el resto de las tareas predeterminadas aquí
+];
+
+// Función para renderizar las tareas en la página
+function renderTasks() {
+  const taskList = document.getElementById('task-list');
+  taskList.innerHTML = ''; // Limpiar lista actual
+  tasks.forEach((task, index) => {
+    const taskElement = document.createElement('div');
+    taskElement.className = `task ${task.completed ? 'completed' : ''}`;
+    taskElement.innerHTML = `
+      <label>
+        <input type="checkbox" ${task.completed ? 'checked' : ''} onchange="toggleTask(${index})">
+        ${task.text}
+      </label>
+      <span class="task-time">${task.time}</span>
+      <button class="delete-btn" onclick="deleteTask(${index})">Eliminar</button>
+    `;
+    taskList.appendChild(taskElement);
+  });
+}
+
+// Función para alternar el estado de una tarea
+function toggleTask(index) {
+  const task = tasks[index];
+  task.completed = !task.completed;
+  task.time = task.completed ? new Date().toLocaleTimeString() : ''; // Agregar o quitar la hora
+  localStorage.setItem('tasks', JSON.stringify(tasks)); // Actualizar LocalStorage
+  renderTasks(); // Volver a renderizar las tareas
+}
+
+// Función para agregar una nueva tarea
+function addTask() {
+  const newTaskInput = document.getElementById('new-task-input');
+  const newTaskText = newTaskInput.value.trim();
+  if (newTaskText) {
+    tasks.push({ text: newTaskText, completed: false, time: '' });
+    localStorage.setItem('tasks', JSON.stringify(tasks));
+    renderTasks();
+    newTaskInput.value = ''; // Limpiar input
+  }
+}
+
+// Función para eliminar una tarea
+function deleteTask(index) {
+  tasks.splice(index, 1); // Elimina la tarea del array
+  localStorage.setItem('tasks', JSON.stringify(tasks)); // Actualiza el LocalStorage
+  renderTasks(); // Vuelve a renderizar las tareas
+}
+// Agregar funcionalidad al botón de agregar tarea
+document.getElementById('add-task-btn').addEventListener('click', addTask);
+
+// Renderizar tareas al cargar la página
+renderTasks();
+</script>
+</body>
+</html>
