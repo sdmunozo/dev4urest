@@ -1,0 +1,9 @@
+Regresar a version anterior de coding y hacerla jalar.
+Realizar Flujo de documentación para User Download Template
+Revisar Comandos Diagrama Flujo User Download Template
+Crear copia de comandos creados Flujo User Download Template (C)
+Agregar pasos a comandos creados Flujo User Download Template (O)
+Comparar y Documentar los cambios de C - O
+Integrar Diagrama de Secuencia de User Download Template
+Integrar Diagrama EBC
+Integrar Capa de Datos

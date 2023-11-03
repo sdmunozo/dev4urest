@@ -33,6 +33,7 @@ def encontrar_clave_y_agregar_codigo(ruta):
                         f"<div style=\"border: 1px solid black; width: 800px; height: 600px; overflow: hidden;\">\n"
                         f"    <object data=\"https://sdmunozo.github.io/dev4urest/developer_guide/diagrams/fl/fl_svg/FL_ADMIN_{clave}.svg\" type=\"image/svg+xml\" id=\"diagramaSvg\" width=\"100%\" height=\"100%\"></object>\n"
                         "</div>\n\n"
+                        f"<a href=\"https://sdmunozo.github.io/dev4urest/developer_guide/diagrams/fl/fl_svg/FL_ADMIN_{clave}.svg\" target=\"_blank\">Abrir diagrama de flujo FL_ADMIN_{clave} en nueva pestaña</a>\n"
                         "<script>\n"
                         "window.addEventListener(\"load\", function() {\n"
                         "    var svgElement = document.querySelector('#diagramaSvg').contentDocument.documentElement;\n"
@@ -43,6 +44,7 @@ def encontrar_clave_y_agregar_codigo(ruta):
                         "});\n\n"
                         "</script>\n\n"
                     )
+
                     # Abrir el archivo nuevamente para escribir al final
                     with open(ruta_completa, 'a') as file:  # 'a' abre el archivo para agregar al final
                         file.write(codigo_a_insertar)

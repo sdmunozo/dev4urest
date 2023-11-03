@@ -41,6 +41,7 @@
     <object data="https://sdmunozo.github.io/dev4urest/developer_guide/diagrams/fl/fl_svg/FL_ADMIN_USDTF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
 </div>
 
+<a href="https://sdmunozo.github.io/dev4urest/developer_guide/diagrams/fl/fl_svg/FL_ADMIN_USDTF.svg" target="_blank">Abrir diagrama de flujo FL_ADMIN_USDTF en nueva pestaña</a>
 <script>
 window.addEventListener("load", function() {
     var svgElement = document.querySelector('#diagramaSvg').contentDocument.documentElement;

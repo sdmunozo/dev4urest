@@ -19,8 +19,8 @@ extra_javascript:
 
 
 nav:
-  - Home: todolist.html
-  #- Home: index.md
+  #- Home: todolist.html
+  - Home: index.md
 #  - Main Flows:
     #  - MPF Manage Page : developer_guide/ManagePageFlow.md
     #  - LAF Login Admin : developer_guide/LoginAdminFlow.md
