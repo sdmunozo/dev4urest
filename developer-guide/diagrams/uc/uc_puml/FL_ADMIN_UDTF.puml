@@ -1,8 +1,0 @@
-@startuml
-
-left to right direction
-
-    usecase "UDTF :  Download User Template" as UserCase
-    "Administrador" --> UserCase
-
-@enduml

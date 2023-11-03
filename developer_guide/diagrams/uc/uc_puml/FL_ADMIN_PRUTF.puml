@@ -2,7 +2,7 @@
 
 left to right direction
 
-    usecase "PRUTF :  Upload Product Template" as UserCase
+    usecase "PRUTF :  Upload Products Template" as UserCase
     "Administrador" --> UserCase
 
 @enduml

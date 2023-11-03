@@ -155,8 +155,8 @@ TS-WAI
 TA-SEL-Descargar Plantilla
 TA-SEL-Seleccionar archivo
 TA-SEL-Registro Manual
-TS-EJF-UDTF : DownloadUserTemplateFlow-Permite descargar la plantilla para cargar usuarios.-N/A
-TS-EJF-UDUTF : UploadUserTemplateFlow-Permite cargar una plantilla de usuarios para crearlos de forma masiva.-N/A
+TS-EJF-USDTF : DownloadUserTemplateFlow-Permite descargar la plantilla para cargar usuarios.-N/A
+TS-EJF-USUTF : UploadUserTemplateFlow-Permite cargar una plantilla de usuarios para crearlos de forma masiva.-N/A
 TS-EJF-MUF : CreateUserFlow-Permite crear un nuevo usuario manualmente.-N/A
 
 // Roles
@@ -427,7 +427,7 @@ WR
 // Download User Template Flow
 ND
 DownloadUserTemplateFlow
-UDTF
+USDTF
 VIE1-MPF23
 
 // Flujo Básico
@@ -452,7 +452,7 @@ RED-MPF120
 
 // Download Template(Users) : Código 404 E1 : si
 TS-CLO-MessageModal
-RED-UDTF02
+RED-USDTF02
 
 // Flechas
 AR-01-02
@@ -1089,15 +1089,15 @@ AR-05-07
 WR
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-// UPLOAD
+// UPLOAD - UploadUserTemplateFlow
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
 // **UploadFile:** User
 
-// Upload Products Template Flow
+// Upload User Template Flow
 ND
 UploadUserTemplateFlow
-UDUTF
+USUTF
 VIE1-MPF128
 
 // Flujo Básico
@@ -1123,7 +1123,7 @@ TA-SEL-MessageModal : No
 
 // Upload Template(Users) : Código 404 E1 : no
 TS-CLO-MessageModal
-RED-UDUTF04
+RED-USUTF04
 
 // Upload Template(Users) : Código 404 E1 : si
 TS-CLO-MessageModal
@@ -1735,7 +1735,7 @@ WR
 
 // Upload Products Template Flow
 ND
-UploadProductTemplateFlow
+UploadProductsTemplateFlow
 PRUTF
 VIE1-MPF128
 

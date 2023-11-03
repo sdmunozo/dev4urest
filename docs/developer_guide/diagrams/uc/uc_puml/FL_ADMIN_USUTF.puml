@@ -1,0 +1,8 @@
+@startuml
+
+left to right direction
+
+    usecase "USUTF :  Upload User Template" as UserCase
+    "Administrador" --> UserCase
+
+@enduml

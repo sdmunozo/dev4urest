@@ -151,8 +151,8 @@ TS-EJF-MPF121-SUF : ShowUsersFlow-Permite ver la lista de usuarios.-N/A
 -TA-SEL-MPF127-Descargar Plantilla
 -TA-SEL-MPF128-Seleccionar archivo
 -TA-SEL-MPF129-Registro Manual
-TS-EJF-MPF130-UDTF : DownloadUserTemplateFlow-Permite descargar la plantilla para cargar usuarios.-N/A
-TS-EJF-MPF131-UDUTF : UploadUserTemplateFlow-Permite cargar una plantilla de usuarios para crearlos de forma masiva.-N/A
+TS-EJF-MPF130-USDTF : DownloadUserTemplateFlow-Permite descargar la plantilla para cargar usuarios.-N/A
+TS-EJF-MPF131-USUTF : UploadUserTemplateFlow-Permite cargar una plantilla de usuarios para crearlos de forma masiva.-N/A
 TS-EJF-MPF132-MUF : CreateUserFlow-Permite crear un nuevo usuario manualmente.-N/A
 -TS-MUE-MPF133-MainRolesListPage
 TS-EJF-MPF134-SRF : ShowRolesFlow-Permite ver la lista de roles de usuario.-N/A
@@ -226,13 +226,13 @@ WR
 // TERMINA > LAF : LoginAdminFlow
 
 
-// INICIA > UDTF : DownloadUserTemplateFlow
+// INICIA > USDTF : DownloadUserTemplateFlow
 
 NF
 NFNA-DownloadUserTemplateFlow
 
 ### Detalle de caso de uso
-# UDTF : Download User Template 
+# USDTF : Download User Template 
 
 ## DEFINICIÓN
 
@@ -246,27 +246,27 @@ PO
 DEF-END
 
 ## DIAGRAMA: Download User Template 
-IMG-UDTF : Download User Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_UDTF.png
+IMG-USDTF : Download User Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_USDTF.png
 
 ## FLUJO BÁSICO: Download User Template 
 NT
--TS-VIE1-UDTF01-MPF23
--TS-EJE-UDTF02-Download Template(User)
-TR-COD-UDTF03-Success-UserTemplate.csv
-TR-COD-UDTF04-Record not found.-Hay un problema con el servidor.-error
-TR-COD-UDTF05-Database not available-No hay conexión con la base de datos.-error
--TS-RED-UDTF06-MPF126
--TS-MUE-UDTF07-MessageModal[dis_msg, type]
--TA-SEL-UDTF08-MessageModal : Yes
--TA-SEL-UDTF09-MessageModal : No
--TS-CLO-UDTF10-MessageModal
--TS-RED-UDTF11-MPF120
--TS-CLO-UDTF12-MessageModal
--TS-RED-UDTF13-UDTF02
+-TS-VIE1-USDTF01-MPF23
+-TS-EJE-USDTF02-Download Template(User)
+TR-COD-USDTF03-Success-UserTemplate.csv
+TR-COD-USDTF04-Record not found.-Hay un problema con el servidor.-error
+TR-COD-USDTF05-Database not available-No hay conexión con la base de datos.-error
+-TS-RED-USDTF06-MPF126
+-TS-MUE-USDTF07-MessageModal[dis_msg, type]
+-TA-SEL-USDTF08-MessageModal : Yes
+-TA-SEL-USDTF09-MessageModal : No
+-TS-CLO-USDTF10-MessageModal
+-TS-RED-USDTF11-MPF120
+-TS-CLO-USDTF12-MessageModal
+-TS-RED-USDTF13-USDTF02
 
 
 WR
-// TERMINA > UDTF : DownloadUserTemplateFlow
+// TERMINA > USDTF : DownloadUserTemplateFlow
 
 
 // INICIA > PEDTF : DownloadPermissionsTemplateFlow
@@ -699,13 +699,13 @@ WR
 // TERMINA > PIDTF : DownloadProductsTemplateFlow
 
 
-// INICIA > UDUTF : UploadUserTemplateFlow
+// INICIA > USUTF : UploadUserTemplateFlow
 
 NF
 NFNA-UploadUserTemplateFlow
 
 ### Detalle de caso de uso
-# UDUTF : Upload User Template 
+# USUTF : Upload User Template 
 
 ## DEFINICIÓN
 
@@ -719,30 +719,30 @@ PO
 DEF-END
 
 ## DIAGRAMA: Upload User Template 
-IMG-UDUTF : Upload User Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_UDUTF.png
+IMG-USUTF : Upload User Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_USUTF.png
 
 ## FLUJO BÁSICO: Upload User Template 
 NT
--TS-VIE1-UDUTF01-MPF128
--TS-MUE-UDUTF02-UploadFileModal('User')
--TA-SEL-UDUTF03-Cargar Archivo ['users.csv']
--TS-EJE-UDUTF04-Upload File('users.csv')
-TR-COD-UDUTF05-Success-UserUploadResult.csv
-TR-COD-UDUTF06-Record not found.-Hay un problema con el servidor.-error
-TR-COD-UDUTF07-Invalid request format.-Solicitud incompleta o mal formateada.-error
-TR-COD-UDUTF08-Database not available-No hay conexión con la base de datos.-error
--TS-RED-UDUTF09-MPF120
--TS-MUE-UDUTF10-MessageModal[dis_msg, type]
--TA-SEL-UDUTF11-MessageModal : Yes
--TA-SEL-UDUTF12-MessageModal : No
--TS-CLO-UDUTF13-MessageModal
--TS-RED-UDUTF14-UDUTF04
--TS-CLO-UDUTF15-MessageModal
--TS-RED-UDUTF16-MPF120
+-TS-VIE1-USUTF01-MPF128
+-TS-MUE-USUTF02-UploadFileModal('User')
+-TA-SEL-USUTF03-Cargar Archivo ['users.csv']
+-TS-EJE-USUTF04-Upload File('users.csv')
+TR-COD-USUTF05-Success-UserUploadResult.csv
+TR-COD-USUTF06-Record not found.-Hay un problema con el servidor.-error
+TR-COD-USUTF07-Invalid request format.-Solicitud incompleta o mal formateada.-error
+TR-COD-USUTF08-Database not available-No hay conexión con la base de datos.-error
+-TS-RED-USUTF09-MPF120
+-TS-MUE-USUTF10-MessageModal[dis_msg, type]
+-TA-SEL-USUTF11-MessageModal : Yes
+-TA-SEL-USUTF12-MessageModal : No
+-TS-CLO-USUTF13-MessageModal
+-TS-RED-USUTF14-USUTF04
+-TS-CLO-USUTF15-MessageModal
+-TS-RED-USUTF16-MPF120
 
 
 WR
-// TERMINA > UDUTF : UploadUserTemplateFlow
+// TERMINA > USUTF : UploadUserTemplateFlow
 
 
 // INICIA > PRUTF : UploadPermissionsTemplateFlow
@@ -1158,13 +1158,13 @@ WR
 // TERMINA > CAUTF : UploadCategoriesTemplateFlow
 
 
-// INICIA > PRUTF : UploadProductTemplateFlow
+// INICIA > PRUTF : UploadProductsTemplateFlow
 
 NF
-NFNA-UploadProductTemplateFlow
+NFNA-UploadProductsTemplateFlow
 
 ### Detalle de caso de uso
-# PRUTF : Upload Product Template 
+# PRUTF : Upload Products Template 
 
 ## DEFINICIÓN
 
@@ -1177,10 +1177,10 @@ PO
 1 de Noviembre 2023
 DEF-END
 
-## DIAGRAMA: Upload Product Template 
-IMG-PRUTF : Upload Product Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
+## DIAGRAMA: Upload Products Template 
+IMG-PRUTF : Upload Products Template -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_PRUTF.png
 
-## FLUJO BÁSICO: Upload Product Template 
+## FLUJO BÁSICO: Upload Products Template 
 NT
 -TS-VIE1-PRUTF01-MPF128
 -TS-MUE-PRUTF02-UploadFileModal('Product')
@@ -1201,6 +1201,6 @@ TR-COD-PRUTF08-Database not available-No hay conexión con la base de datos.-err
 
 
 WR
-// TERMINA > PRUTF : UploadProductTemplateFlow
+// TERMINA > PRUTF : UploadProductsTemplateFlow
 
 

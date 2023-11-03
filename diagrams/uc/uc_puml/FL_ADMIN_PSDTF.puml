@@ -1,8 +1,0 @@
-@startuml
-
-left to right direction
-
-    usecase "PSDTF :  Download Points Of Sale Template" as UserCase
-    "Administrador" --> UserCase
-
-@enduml

@@ -1,8 +1,0 @@
-@startuml
-
-left to right direction
-
-    usecase "PMDTF :  Download Payment Methods Template" as UserCase
-    "Administrador" --> UserCase
-
-@enduml

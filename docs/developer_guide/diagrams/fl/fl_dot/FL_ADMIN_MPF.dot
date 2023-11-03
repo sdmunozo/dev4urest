@@ -1545,7 +1545,7 @@ MPF130 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
                 <TD CELLPADDING="4"><FONT COLOR="black">MPF130: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
             </TR>
             <TR>
-                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"UDTF : DownloadUserTemplateFlow".</TD>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"USDTF : DownloadUserTemplateFlow".</TD>
             </TR>
             <TR>
                 <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar usuarios.".</TD>
@@ -1560,7 +1560,7 @@ MPF131 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
                 <TD CELLPADDING="4"><FONT COLOR="black">MPF131: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
             </TR>
             <TR>
-                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"UDUTF : UploadUserTemplateFlow".</TD>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"USUTF : UploadUserTemplateFlow".</TD>
             </TR>
             <TR>
                 <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de usuarios para crearlos de forma masiva.".</TD>

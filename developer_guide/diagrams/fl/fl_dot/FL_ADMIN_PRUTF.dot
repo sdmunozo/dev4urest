@@ -1,4 +1,4 @@
-digraph UploadProductTemplateFlow {
+digraph UploadProductsTemplateFlow {
     node [shape=box];
     edge [dir=forward];
 

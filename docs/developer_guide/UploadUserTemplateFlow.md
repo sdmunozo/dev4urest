@@ -1,5 +1,5 @@
 ### Detalle de caso de uso
-# UDUTF : Upload User Template
+# USUTF : Upload User Template
 ## DEFINICIÓN
 
 - **Actores:** Administrador
@@ -17,30 +17,30 @@
 
 ## DIAGRAMA: Upload User Template
 
-![UDUTF : Upload User Template ](../developer_guide/diagrams/uc/uc_png/FL_ADMIN_UDUTF.png)
+![USUTF : Upload User Template ](../developer_guide/diagrams/uc/uc_png/FL_ADMIN_USUTF.png)
 
 
 ## FLUJO BÁSICO: Upload User Template
 | # | ACTOR | # | SISTEMA | CÓDIGO |
 |:---:|:---|:---:|:---|:---:|
--TS-VIE1-UDUTF01-MPF128
--TS-MUE-UDUTF02-UploadFileModal('User')
--TA-SEL-UDUTF03-Cargar Archivo ['users.csv']
--TS-EJE-UDUTF04-Upload File('users.csv')
--TS-RED-UDUTF09-MPF120
--TS-MUE-UDUTF10-MessageModal[dis_msg, type]
--TA-SEL-UDUTF11-MessageModal : Yes
--TA-SEL-UDUTF12-MessageModal : No
--TS-CLO-UDUTF13-MessageModal
--TS-RED-UDUTF14-UDUTF04
--TS-CLO-UDUTF15-MessageModal
--TS-RED-UDUTF16-MPF120
+-TS-VIE1-USUTF01-MPF128
+-TS-MUE-USUTF02-UploadFileModal('User')
+-TA-SEL-USUTF03-Cargar Archivo ['users.csv']
+-TS-EJE-USUTF04-Upload File('users.csv')
+-TS-RED-USUTF09-MPF120
+-TS-MUE-USUTF10-MessageModal[dis_msg, type]
+-TA-SEL-USUTF11-MessageModal : Yes
+-TA-SEL-USUTF12-MessageModal : No
+-TS-CLO-USUTF13-MessageModal
+-TS-RED-USUTF14-USUTF04
+-TS-CLO-USUTF15-MessageModal
+-TS-RED-USUTF16-MPF120
 
 
 ## Diagrama de Flujo
 
 <div style="border: 1px solid black; width: 800px; height: 600px; overflow: hidden;">
-    <object data="https://sdmunozo.github.io/dev4urest/developer-guide/diagrams/fl/fl_svg/FL_ADMIN_UDUTF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
+    <object data="https://sdmunozo.github.io/dev4urest/developer-guide/diagrams/fl/fl_svg/FL_ADMIN_USUTF.svg" type="image/svg+xml" id="diagramaSvg" width="100%" height="100%"></object>
 </div>
 
 <script>

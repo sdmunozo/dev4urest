@@ -24,8 +24,8 @@ nav:
       - MPF Manage Page : developer_guide/ManagePageFlow.md
       - LAF Login Admin : developer_guide/LoginAdminFlow.md
   - User:
-    - UDTF User: developer_guide/DownloadUserTemplateFlow.md
-    - UDUTF User: developer_guide/UploadUserTemplateFlow.md
+    - USDTF User: developer_guide/DownloadUserTemplateFlow.md
+    - USUTF User: developer_guide/UploadUserTemplateFlow.md
   - Roles:
     - RODTF Roles: developer_guide/DownloadRolesTemplateFlow.md
     - ROUTF Roles: developer_guide/UploadRolesTemplateFlow.md
