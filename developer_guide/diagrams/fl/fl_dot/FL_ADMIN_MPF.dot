@@ -1,0 +1,2063 @@
+digraph ManagePageFlow {
+    node [shape=box];
+    edge [dir=forward];
+
+    //Contenido
+
+MPF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF01: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"LoginAdminDashboardPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF02 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF02: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"LAF : LoginAdminFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Valida el usuario que intenta acceder".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"obj.B_User".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF03 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF03: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"AdminDashboardPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF04 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF04: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF04 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF04: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF05 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF05: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Catálogo/Productos".</TD>
+    </TR>
+</TABLE>>];
+
+MPF06 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF06: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Catálogo/Categorías".</TD>
+    </TR>
+</TABLE>>];
+
+MPF07 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF07: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Finanzas/Métodos de Pago".</TD>
+    </TR>
+</TABLE>>];
+
+MPF08 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF08: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Finanzas/Grupos de Métodos de Pago".</TD>
+    </TR>
+</TABLE>>];
+
+MPF09 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF09: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Finanzas/Impuestos".</TD>
+    </TR>
+</TABLE>>];
+
+MPF10 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF10: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Plataforma/Plataformas".</TD>
+    </TR>
+</TABLE>>];
+
+MPF11 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF11: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Plataforma/Puntos de Venta".</TD>
+    </TR>
+</TABLE>>];
+
+MPF12 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF12: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Plataforma/Impresoras".</TD>
+    </TR>
+</TABLE>>];
+
+MPF13 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF13: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Acceso/Usuarios".</TD>
+    </TR>
+</TABLE>>];
+
+MPF14 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF14: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Acceso/Roles".</TD>
+    </TR>
+</TABLE>>];
+
+MPF15 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF15: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Menú/Acceso/Permisos".</TD>
+    </TR>
+</TABLE>>];
+
+MPF16 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF16: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainProductsListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF17 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF17: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SPF : ShowProductsFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de productos.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF18 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF18: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF18 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF18: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF19 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF19: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Productos".</TD>
+    </TR>
+</TABLE>>];
+
+MPF20 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF20: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Producto".</TD>
+    </TR>
+</TABLE>>];
+
+MPF21 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF21: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManageProductsPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF22 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF22: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF22 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF22: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF23 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF23: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF24 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF24: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF25 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF25: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF26 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF26: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PRDTF : DownloadProductsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar productos.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF27 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF27: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PRUTF : UploadProductTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de productos para crearlos de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF28 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF28: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"CUF : CreateProductFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear un nuevo producto manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF29 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF29: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainCategoriesListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF30 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF30: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SCF : ShowCategoriesFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de categorías.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF31 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF31: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF31 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF31: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF32 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF32: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Categorías".</TD>
+    </TR>
+</TABLE>>];
+
+MPF33 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF33: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Categoría".</TD>
+    </TR>
+</TABLE>>];
+
+MPF34 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF34: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManageCategoriesPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF35 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF35: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF35 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF35: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF36 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF36: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF37 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF37: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF38 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF38: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF39 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF39: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"CADTF : DownloadCategoriesTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar categorías.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF40 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF40: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"CAUTF : UploadCategoriesTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de categorías para crearlas de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF41 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF41: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"CCF : CreateCategoryFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear una nueva categoría manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF42 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF42: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainMethodsPaymentListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF43 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF43: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SMPF : ShowMethodsPaymentFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de métodos de pago.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF44 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF44: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF44 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF44: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF45 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF45: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Métodos de Pago".</TD>
+    </TR>
+</TABLE>>];
+
+MPF46 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF46: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Método de Pago".</TD>
+    </TR>
+</TABLE>>];
+
+MPF47 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF47: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManageMethodsPaymentPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF48 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF48: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF48 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF48: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF49 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF49: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF50 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF50: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF51 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF51: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF52 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF52: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PMDTF : DownloadPaymentMethodsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar métodos de pago.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF53 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF53: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PMUTF : UploadPaymentMethodsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de métodos de pago para crearlos de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF54 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF54: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"FPF : CreateMethodPaymentFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear un nuevo método de pago manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF55 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF55: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainPMPMGroupsListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF56 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF56: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SGF : ShowPMGroupsFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de grupos.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF57 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF57: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF57 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF57: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF58 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF58: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Grupos".</TD>
+    </TR>
+</TABLE>>];
+
+MPF59 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF59: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Grupo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF60 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF60: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManagePMGroupsPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF61 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF61: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF61 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF61: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF62 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF62: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF63 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF63: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF64 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF64: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF65 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF65: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PGDTF : DownloadPMGroupsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar grupos.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF66 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF66: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PGUTF : UploadPMGroupsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de grupos para crearlos de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF67 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF67: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"FGF : CreatePMGroupFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear un nuevo grupo manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF68 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF68: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainTaxesListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF69 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF69: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"STF : ShowTaxesFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de impuestos.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF70 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF70: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF70 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF70: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF71 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF71: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Impuestos".</TD>
+    </TR>
+</TABLE>>];
+
+MPF72 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF72: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Impuesto".</TD>
+    </TR>
+</TABLE>>];
+
+MPF73 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF73: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManageTaxesPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF74 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF74: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF74 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF74: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF75 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF75: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF76 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF76: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF77 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF77: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF78 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF78: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"TADTF : DownloadTaxesTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar impuestos.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF79 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF79: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"TAUTF : UploadTaxesTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de impuestos para crearlos de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF80 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF80: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"FTF : CreateTaxFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear un nuevo impuesto manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF81 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF81: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainPlatformsListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF82 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF82: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SPLF : ShowPlatformsFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de plataformas.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF83 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF83: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF83 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF83: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF84 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF84: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Plataformas".</TD>
+    </TR>
+</TABLE>>];
+
+MPF85 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF85: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Plataforma".</TD>
+    </TR>
+</TABLE>>];
+
+MPF86 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF86: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManagePlatformsPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF87 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF87: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF87 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF87: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF88 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF88: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF89 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF89: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF90 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF90: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF91 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF91: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PLDTF : DownloadPlatformsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar plataformas.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF92 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF92: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PLUTF : UploadPlatformsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de plataformas para crearlas de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF93 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF93: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PLF : CreatePlatformFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear una nueva plataforma manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF94 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF94: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainPointsSaleListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF95 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF95: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SPVF : ShowPointsSaleFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de puntos de venta.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF96 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF96: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF96 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF96: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF97 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF97: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Puntos de Venta".</TD>
+    </TR>
+</TABLE>>];
+
+MPF98 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF98: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Punto de Venta".</TD>
+    </TR>
+</TABLE>>];
+
+MPF99 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF99: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManagePointsSalePage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF100 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF100: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF100 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF100: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF101 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF101: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF102 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF102: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF103 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF103: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF104 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF104: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PSDTF : DownloadPointsOfSaleTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar puntos de venta.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF105 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF105: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PSUTF : UploadPointsOfSaleTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de puntos de venta para crearlos de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF106 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF106: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PVF : CreatePointSaleFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear un nuevo punto de venta manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF107 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF107: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainPrintersListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF108 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF108: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SPRF : ShowPrintersFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de impresoras.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF109 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF109: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF109 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF109: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF110 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF110: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Impresoras".</TD>
+    </TR>
+</TABLE>>];
+
+MPF111 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF111: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Impresora".</TD>
+    </TR>
+</TABLE>>];
+
+MPF112 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF112: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManagePrintersPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF113 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF113: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF113 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF113: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF114 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF114: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF115 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF115: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF116 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF116: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF117 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF117: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PIDTF : DownloadPrintersTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar impresoras.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF118 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF118: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PTUTF : UploadPrintersTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de impresoras para crearlas de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF119 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF119: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PRF : CreatePrinterFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear una nueva impresora manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF120 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF120: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainUsersListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF121 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF121: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SUF : ShowUsersFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de usuarios.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF122 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF122: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF122 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF122: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF123 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF123: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Usuarios".</TD>
+    </TR>
+</TABLE>>];
+
+MPF124 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF124: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Usuario".</TD>
+    </TR>
+</TABLE>>];
+
+MPF125 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF125: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManageUsersPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF126 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF126: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF126 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF126: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF127 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF127: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF128 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF128: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF129 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF129: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF130 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF130: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"USDTF : DownloadUserTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar usuarios.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF131 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF131: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"USUTF : UploadUserTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de usuarios para crearlos de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF132 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF132: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"MUF : CreateUserFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear un nuevo usuario manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF133 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF133: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainRolesListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF134 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF134: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SRF : ShowRolesFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de roles de usuario.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF135 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF135: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF135 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF135: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF136 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF136: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Roles".</TD>
+    </TR>
+</TABLE>>];
+
+MPF137 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF137: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Rol".</TD>
+    </TR>
+</TABLE>>];
+
+MPF138 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF138: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManageRolesPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF139 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF139: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF139 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF139: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF140 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF140: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF141 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF141: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF142 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF142: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF143 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF143: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"RODTF : DownloadRolesTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar roles.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF144 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF144: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"ROUTF : UploadRolesTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de roles para crearlos de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF145 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF145: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"RAF : CreateRoleFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear un nuevo rol manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF146 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF146: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MainPermissionsListPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF147 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF147: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"SPAF : ShowPermissionsFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite ver la lista de permisos de acceso.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF148 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF148: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF148 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF148: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF149 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF149: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Administrar Permisos".</TD>
+    </TR>
+</TABLE>>];
+
+MPF150 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF150: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Permiso".</TD>
+    </TR>
+</TABLE>>];
+
+MPF151 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF151: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"ManagePermissionsPage".</TD>
+    </TR>
+</TABLE>>];
+
+MPF152 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF152: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF152 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF152: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Espera acción de usuario.</FONT></TD>
+    </TR>
+</TABLE>>];
+
+MPF153 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF153: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Descargar Plantilla".</TD>
+    </TR>
+</TABLE>>];
+
+MPF154 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF154: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Seleccionar archivo".</TD>
+    </TR>
+</TABLE>>];
+
+MPF155 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="black">MPF155: <FONT COLOR="blue">Actor</FONT></FONT>.</TD>
+    </TR>
+    <TR>
+        <TD CELLPADDING="4"><FONT COLOR="orange">Selecciona: </FONT>"Registro Manual".</TD>
+    </TR>
+</TABLE>>];
+
+MPF156 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF156: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PEDTF : DownloadPermissionsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite descargar la plantilla para cargar permisos.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF157 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF157: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PNUTF : UploadPermissionsTemplateFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite cargar una plantilla de permisos para crearlos de forma masiva.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF158 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="black">MPF158: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="green">Ejecuta Flujo: </FONT>"PAF : CreatePermissionFlow".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="red">Acción: </FONT>"Permite crear un nuevo permiso manualmente.".</TD>
+            </TR>
+            <TR>
+                <TD CELLPADDING="4"><FONT COLOR="orange">res_obj: </FONT>"N/A".</TD>
+            </TR>
+            </TABLE>>];
+
+MPF01 -> MPF02;
+MPF02 -> MPF03;
+MPF03 -> MPF04;
+MPF04 -> MPF05;
+MPF04 -> MPF06;
+MPF04 -> MPF07;
+MPF04 -> MPF08;
+MPF04 -> MPF09;
+MPF04 -> MPF10;
+MPF04 -> MPF11;
+MPF04 -> MPF12;
+MPF04 -> MPF13;
+MPF04 -> MPF14;
+MPF04 -> MPF15;
+MPF05 -> MPF16;
+MPF16 -> MPF17;
+MPF17 -> MPF18;
+MPF18 -> MPF19;
+MPF18 -> MPF20;
+MPF19 -> MPF21;
+MPF21 -> MPF22;
+MPF22 -> MPF23;
+MPF22 -> MPF24;
+MPF22 -> MPF25;
+MPF23 -> MPF26;
+MPF24 -> MPF27;
+MPF25 -> MPF28;
+MPF06 -> MPF29;
+MPF29 -> MPF30;
+MPF30 -> MPF31;
+MPF31 -> MPF32;
+MPF31 -> MPF33;
+MPF32 -> MPF34;
+MPF34 -> MPF35;
+MPF35 -> MPF36;
+MPF35 -> MPF37;
+MPF35 -> MPF38;
+MPF36 -> MPF39;
+MPF37 -> MPF40;
+MPF38 -> MPF41;
+MPF07 -> MPF42;
+MPF42 -> MPF43;
+MPF43 -> MPF44;
+MPF44 -> MPF45;
+MPF44 -> MPF46;
+MPF45 -> MPF47;
+MPF47 -> MPF48;
+MPF48 -> MPF49;
+MPF48 -> MPF50;
+MPF48 -> MPF51;
+MPF49 -> MPF52;
+MPF50 -> MPF53;
+MPF51 -> MPF54;
+MPF08 -> MPF55;
+MPF55 -> MPF56;
+MPF56 -> MPF57;
+MPF57 -> MPF58;
+MPF57 -> MPF59;
+MPF58 -> MPF60;
+MPF60 -> MPF61;
+MPF61 -> MPF62;
+MPF61 -> MPF63;
+MPF61 -> MPF64;
+MPF62 -> MPF65;
+MPF63 -> MPF66;
+MPF64 -> MPF67;
+MPF09 -> MPF68;
+MPF68 -> MPF69;
+MPF69 -> MPF70;
+MPF70 -> MPF71;
+MPF70 -> MPF72;
+MPF71 -> MPF73;
+MPF73 -> MPF74;
+MPF74 -> MPF75;
+MPF74 -> MPF76;
+MPF74 -> MPF77;
+MPF75 -> MPF78;
+MPF76 -> MPF79;
+MPF77 -> MPF80;
+MPF10 -> MPF81;
+MPF81 -> MPF82;
+MPF82 -> MPF83;
+MPF83 -> MPF84;
+MPF83 -> MPF85;
+MPF84 -> MPF86;
+MPF86 -> MPF87;
+MPF87 -> MPF88;
+MPF87 -> MPF89;
+MPF87 -> MPF90;
+MPF88 -> MPF91;
+MPF89 -> MPF92;
+MPF90 -> MPF93;
+MPF11 -> MPF94;
+MPF94 -> MPF95;
+MPF95 -> MPF96;
+MPF96 -> MPF97;
+MPF96 -> MPF98;
+MPF97 -> MPF99;
+MPF99 -> MPF100;
+MPF100 -> MPF101;
+MPF100 -> MPF102;
+MPF100 -> MPF103;
+MPF101 -> MPF104;
+MPF102 -> MPF105;
+MPF103 -> MPF106;
+MPF12 -> MPF107;
+MPF107 -> MPF108;
+MPF108 -> MPF109;
+MPF109 -> MPF110;
+MPF109 -> MPF111;
+MPF110 -> MPF112;
+MPF112 -> MPF113;
+MPF113 -> MPF114;
+MPF113 -> MPF115;
+MPF113 -> MPF116;
+MPF114 -> MPF117;
+MPF115 -> MPF118;
+MPF116 -> MPF119;
+MPF13 -> MPF120;
+MPF120 -> MPF121;
+MPF121 -> MPF122;
+MPF122 -> MPF123;
+MPF122 -> MPF124;
+MPF123 -> MPF125;
+MPF125 -> MPF126;
+MPF126 -> MPF127;
+MPF126 -> MPF128;
+MPF126 -> MPF129;
+MPF127 -> MPF130;
+MPF128 -> MPF131;
+MPF129 -> MPF132;
+MPF14 -> MPF133;
+MPF133 -> MPF134;
+MPF134 -> MPF135;
+MPF135 -> MPF136;
+MPF135 -> MPF137;
+MPF136 -> MPF138;
+MPF138 -> MPF139;
+MPF139 -> MPF140;
+MPF139 -> MPF141;
+MPF139 -> MPF142;
+MPF140 -> MPF143;
+MPF141 -> MPF144;
+MPF142 -> MPF145;
+MPF15 -> MPF146;
+MPF146 -> MPF147;
+MPF147 -> MPF148;
+MPF148 -> MPF149;
+MPF148 -> MPF150;
+MPF149 -> MPF151;
+MPF151 -> MPF152;
+MPF152 -> MPF153;
+MPF152 -> MPF154;
+MPF152 -> MPF155;
+MPF153 -> MPF156;
+MPF154 -> MPF157;
+MPF155 -> MPF158;
+}

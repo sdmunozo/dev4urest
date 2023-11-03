@@ -1,3 +1,191 @@
+// INICIA > MPF : ManagePageFlow
+
+NF
+NFNA-ManagePageFlow
+
+### Detalle de caso de uso
+# MPF : Manage Page 
+
+## DEFINICIÓN
+
+DEF-INI
+Administrador
+El usuario Administrador es capaz de 
+PR
+PO
+1 de Noviembre 2023
+1 de Noviembre 2023
+DEF-END
+
+## DIAGRAMA: Manage Page 
+IMG-MPF : Manage Page -../developer_guide/diagrams/uc/uc_png/FL_ADMIN_MPF.png
+
+## FLUJO BÁSICO: Manage Page 
+NT
+-TS-MUE-MPF01-LoginAdminDashboardPage
+TS-EJF-MPF02-LAF : LoginAdminFlow-Valida el usuario que intenta acceder-obj.B_User
+-TS-MUE-MPF03-AdminDashboardPage
+-TS-WAI-MPF04
+-TA-SEL-MPF05-Menú/Catálogo/Productos
+-TA-SEL-MPF06-Menú/Catálogo/Categorías
+-TA-SEL-MPF07-Menú/Finanzas/Métodos de Pago
+-TA-SEL-MPF08-Menú/Finanzas/Grupos de Métodos de Pago
+-TA-SEL-MPF09-Menú/Finanzas/Impuestos
+-TA-SEL-MPF10-Menú/Plataforma/Plataformas
+-TA-SEL-MPF11-Menú/Plataforma/Puntos de Venta
+-TA-SEL-MPF12-Menú/Plataforma/Impresoras
+-TA-SEL-MPF13-Menú/Acceso/Usuarios
+-TA-SEL-MPF14-Menú/Acceso/Roles
+-TA-SEL-MPF15-Menú/Acceso/Permisos
+-TS-MUE-MPF16-MainProductsListPage
+TS-EJF-MPF17-SPF : ShowProductsFlow-Permite ver la lista de productos.-N/A
+-TS-WAI-MPF18
+-TA-SEL-MPF19-Administrar Productos
+-TA-SEL-MPF20-Producto
+-TS-MUE-MPF21-ManageProductsPage
+-TS-WAI-MPF22
+-TA-SEL-MPF23-Descargar Plantilla
+-TA-SEL-MPF24-Seleccionar archivo
+-TA-SEL-MPF25-Registro Manual
+TS-EJF-MPF26-PRDTF : DownloadProductsTemplateFlow-Permite descargar la plantilla para cargar productos.-N/A
+TS-EJF-MPF27-PRUTF : UploadProductTemplateFlow-Permite cargar una plantilla de productos para crearlos de forma masiva.-N/A
+TS-EJF-MPF28-CUF : CreateProductFlow-Permite crear un nuevo producto manualmente.-N/A
+-TS-MUE-MPF29-MainCategoriesListPage
+TS-EJF-MPF30-SCF : ShowCategoriesFlow-Permite ver la lista de categorías.-N/A
+-TS-WAI-MPF31
+-TA-SEL-MPF32-Administrar Categorías
+-TA-SEL-MPF33-Categoría
+-TS-MUE-MPF34-ManageCategoriesPage
+-TS-WAI-MPF35
+-TA-SEL-MPF36-Descargar Plantilla
+-TA-SEL-MPF37-Seleccionar archivo
+-TA-SEL-MPF38-Registro Manual
+TS-EJF-MPF39-CADTF : DownloadCategoriesTemplateFlow-Permite descargar la plantilla para cargar categorías.-N/A
+TS-EJF-MPF40-CAUTF : UploadCategoriesTemplateFlow-Permite cargar una plantilla de categorías para crearlas de forma masiva.-N/A
+TS-EJF-MPF41-CCF : CreateCategoryFlow-Permite crear una nueva categoría manualmente.-N/A
+-TS-MUE-MPF42-MainMethodsPaymentListPage
+TS-EJF-MPF43-SMPF : ShowMethodsPaymentFlow-Permite ver la lista de métodos de pago.-N/A
+-TS-WAI-MPF44
+-TA-SEL-MPF45-Administrar Métodos de Pago
+-TA-SEL-MPF46-Método de Pago
+-TS-MUE-MPF47-ManageMethodsPaymentPage
+-TS-WAI-MPF48
+-TA-SEL-MPF49-Descargar Plantilla
+-TA-SEL-MPF50-Seleccionar archivo
+-TA-SEL-MPF51-Registro Manual
+TS-EJF-MPF52-PMDTF : DownloadPaymentMethodsTemplateFlow-Permite descargar la plantilla para cargar métodos de pago.-N/A
+TS-EJF-MPF53-PMUTF : UploadPaymentMethodsTemplateFlow-Permite cargar una plantilla de métodos de pago para crearlos de forma masiva.-N/A
+TS-EJF-MPF54-FPF : CreateMethodPaymentFlow-Permite crear un nuevo método de pago manualmente.-N/A
+-TS-MUE-MPF55-MainPMPMGroupsListPage
+TS-EJF-MPF56-SGF : ShowPMGroupsFlow-Permite ver la lista de grupos.-N/A
+-TS-WAI-MPF57
+-TA-SEL-MPF58-Administrar Grupos
+-TA-SEL-MPF59-Grupo
+-TS-MUE-MPF60-ManagePMGroupsPage
+-TS-WAI-MPF61
+-TA-SEL-MPF62-Descargar Plantilla
+-TA-SEL-MPF63-Seleccionar archivo
+-TA-SEL-MPF64-Registro Manual
+TS-EJF-MPF65-PGDTF : DownloadPMGroupsTemplateFlow-Permite descargar la plantilla para cargar grupos.-N/A
+TS-EJF-MPF66-PGUTF : UploadPMGroupsTemplateFlow-Permite cargar una plantilla de grupos para crearlos de forma masiva.-N/A
+TS-EJF-MPF67-FGF : CreatePMGroupFlow-Permite crear un nuevo grupo manualmente.-N/A
+-TS-MUE-MPF68-MainTaxesListPage
+TS-EJF-MPF69-STF : ShowTaxesFlow-Permite ver la lista de impuestos.-N/A
+-TS-WAI-MPF70
+-TA-SEL-MPF71-Administrar Impuestos
+-TA-SEL-MPF72-Impuesto
+-TS-MUE-MPF73-ManageTaxesPage
+-TS-WAI-MPF74
+-TA-SEL-MPF75-Descargar Plantilla
+-TA-SEL-MPF76-Seleccionar archivo
+-TA-SEL-MPF77-Registro Manual
+TS-EJF-MPF78-TADTF : DownloadTaxesTemplateFlow-Permite descargar la plantilla para cargar impuestos.-N/A
+TS-EJF-MPF79-TAUTF : UploadTaxesTemplateFlow-Permite cargar una plantilla de impuestos para crearlos de forma masiva.-N/A
+TS-EJF-MPF80-FTF : CreateTaxFlow-Permite crear un nuevo impuesto manualmente.-N/A
+-TS-MUE-MPF81-MainPlatformsListPage
+TS-EJF-MPF82-SPLF : ShowPlatformsFlow-Permite ver la lista de plataformas.-N/A
+-TS-WAI-MPF83
+-TA-SEL-MPF84-Administrar Plataformas
+-TA-SEL-MPF85-Plataforma
+-TS-MUE-MPF86-ManagePlatformsPage
+-TS-WAI-MPF87
+-TA-SEL-MPF88-Descargar Plantilla
+-TA-SEL-MPF89-Seleccionar archivo
+-TA-SEL-MPF90-Registro Manual
+TS-EJF-MPF91-PLDTF : DownloadPlatformsTemplateFlow-Permite descargar la plantilla para cargar plataformas.-N/A
+TS-EJF-MPF92-PLUTF : UploadPlatformsTemplateFlow-Permite cargar una plantilla de plataformas para crearlas de forma masiva.-N/A
+TS-EJF-MPF93-PLF : CreatePlatformFlow-Permite crear una nueva plataforma manualmente.-N/A
+-TS-MUE-MPF94-MainPointsSaleListPage
+TS-EJF-MPF95-SPVF : ShowPointsSaleFlow-Permite ver la lista de puntos de venta.-N/A
+-TS-WAI-MPF96
+-TA-SEL-MPF97-Administrar Puntos de Venta
+-TA-SEL-MPF98-Punto de Venta
+-TS-MUE-MPF99-ManagePointsSalePage
+-TS-WAI-MPF100
+-TA-SEL-MPF101-Descargar Plantilla
+-TA-SEL-MPF102-Seleccionar archivo
+-TA-SEL-MPF103-Registro Manual
+TS-EJF-MPF104-PSDTF : DownloadPointsOfSaleTemplateFlow-Permite descargar la plantilla para cargar puntos de venta.-N/A
+TS-EJF-MPF105-PSUTF : UploadPointsOfSaleTemplateFlow-Permite cargar una plantilla de puntos de venta para crearlos de forma masiva.-N/A
+TS-EJF-MPF106-PVF : CreatePointSaleFlow-Permite crear un nuevo punto de venta manualmente.-N/A
+-TS-MUE-MPF107-MainPrintersListPage
+TS-EJF-MPF108-SPRF : ShowPrintersFlow-Permite ver la lista de impresoras.-N/A
+-TS-WAI-MPF109
+-TA-SEL-MPF110-Administrar Impresoras
+-TA-SEL-MPF111-Impresora
+-TS-MUE-MPF112-ManagePrintersPage
+-TS-WAI-MPF113
+-TA-SEL-MPF114-Descargar Plantilla
+-TA-SEL-MPF115-Seleccionar archivo
+-TA-SEL-MPF116-Registro Manual
+TS-EJF-MPF117-PIDTF : DownloadPrintersTemplateFlow-Permite descargar la plantilla para cargar impresoras.-N/A
+TS-EJF-MPF118-PTUTF : UploadPrintersTemplateFlow-Permite cargar una plantilla de impresoras para crearlas de forma masiva.-N/A
+TS-EJF-MPF119-PRF : CreatePrinterFlow-Permite crear una nueva impresora manualmente.-N/A
+-TS-MUE-MPF120-MainUsersListPage
+TS-EJF-MPF121-SUF : ShowUsersFlow-Permite ver la lista de usuarios.-N/A
+-TS-WAI-MPF122
+-TA-SEL-MPF123-Administrar Usuarios
+-TA-SEL-MPF124-Usuario
+-TS-MUE-MPF125-ManageUsersPage
+-TS-WAI-MPF126
+-TA-SEL-MPF127-Descargar Plantilla
+-TA-SEL-MPF128-Seleccionar archivo
+-TA-SEL-MPF129-Registro Manual
+TS-EJF-MPF130-USDTF : DownloadUserTemplateFlow-Permite descargar la plantilla para cargar usuarios.-N/A
+TS-EJF-MPF131-USUTF : UploadUserTemplateFlow-Permite cargar una plantilla de usuarios para crearlos de forma masiva.-N/A
+TS-EJF-MPF132-MUF : CreateUserFlow-Permite crear un nuevo usuario manualmente.-N/A
+-TS-MUE-MPF133-MainRolesListPage
+TS-EJF-MPF134-SRF : ShowRolesFlow-Permite ver la lista de roles de usuario.-N/A
+-TS-WAI-MPF135
+-TA-SEL-MPF136-Administrar Roles
+-TA-SEL-MPF137-Rol
+-TS-MUE-MPF138-ManageRolesPage
+-TS-WAI-MPF139
+-TA-SEL-MPF140-Descargar Plantilla
+-TA-SEL-MPF141-Seleccionar archivo
+-TA-SEL-MPF142-Registro Manual
+TS-EJF-MPF143-RODTF : DownloadRolesTemplateFlow-Permite descargar la plantilla para cargar roles.-N/A
+TS-EJF-MPF144-ROUTF : UploadRolesTemplateFlow-Permite cargar una plantilla de roles para crearlos de forma masiva.-N/A
+TS-EJF-MPF145-RAF : CreateRoleFlow-Permite crear un nuevo rol manualmente.-N/A
+-TS-MUE-MPF146-MainPermissionsListPage
+TS-EJF-MPF147-SPAF : ShowPermissionsFlow-Permite ver la lista de permisos de acceso.-N/A
+-TS-WAI-MPF148
+-TA-SEL-MPF149-Administrar Permisos
+-TA-SEL-MPF150-Permiso
+-TS-MUE-MPF151-ManagePermissionsPage
+-TS-WAI-MPF152
+-TA-SEL-MPF153-Descargar Plantilla
+-TA-SEL-MPF154-Seleccionar archivo
+-TA-SEL-MPF155-Registro Manual
+TS-EJF-MPF156-PEDTF : DownloadPermissionsTemplateFlow-Permite descargar la plantilla para cargar permisos.-N/A
+TS-EJF-MPF157-PNUTF : UploadPermissionsTemplateFlow-Permite cargar una plantilla de permisos para crearlos de forma masiva.-N/A
+TS-EJF-MPF158-PAF : CreatePermissionFlow-Permite crear un nuevo permiso manualmente.-N/A
+
+
+WR
+// TERMINA > MPF : ManagePageFlow
+
+
 // INICIA > USDTF : DownloadUserTemplateFlow
 
 NF
