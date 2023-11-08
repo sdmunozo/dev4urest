@@ -9,7 +9,7 @@ USDTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
                         <TD CELLPADDING="4">USDTF01: Viene de:</TD>
                     </TR>
                     <TR>
-                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF23.</FONT></TD>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF127 : SEL "Descargar Plantilla".</FONT></TD>
                     </TR>
                 </TABLE>>];
 
@@ -18,7 +18,7 @@ USDTF01 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
                         <TD CELLPADDING="4">USDTF01: Viene de:</TD>
                     </TR>
                     <TR>
-                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF23.</FONT></TD>
+                        <TD CELLPADDING="4"><FONT COLOR="orange">MPF127 : SEL "Descargar Plantilla".</FONT></TD>
                     </TR>
                 </TABLE>>];
 
@@ -27,7 +27,7 @@ USDTF02 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
         <TD CELLPADDING="4"><FONT COLOR="black">USDTF02: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
     </TR>
     <TR>
-        <TD CELLPADDING="4"><FONT COLOR="blue">Ejecuta: </FONT>"Download Template(User)".</TD>
+        <TD CELLPADDING="4"><FONT COLOR="blue">Ejecuta: </FONT>"downloadUserTemplate()".</TD>
     </TR>
 </TABLE>>];
 
@@ -78,7 +78,7 @@ USDTF06 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
             <TD CELLPADDING="4"><FONT COLOR="black">USDTF06: Redirige a:</FONT></TD>
         </TR>
         <TR>
-            <TD CELLPADDING="4"><FONT COLOR="blue">MPF126.</FONT></TD>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF126 : Esperar acción de usuario.</FONT></TD>
         </TR>
     </TABLE>>];
 
@@ -87,7 +87,7 @@ USDTF07 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
         <TD CELLPADDING="4"><FONT COLOR="black">USDTF07: <FONT COLOR="green">Sistema</FONT></FONT>.</TD>
     </TR>
     <TR>
-        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"MessageModal[dis_msg, type]".</TD>
+        <TD CELLPADDING="4"><FONT COLOR="green">Muestra: </FONT>"showMessageModal(dis_msg, type)".</TD>
     </TR>
 </TABLE>>];
 
@@ -132,7 +132,7 @@ USDTF11 [label=<<TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0">
             <TD CELLPADDING="4"><FONT COLOR="black">USDTF11: Redirige a:</FONT></TD>
         </TR>
         <TR>
-            <TD CELLPADDING="4"><FONT COLOR="blue">MPF120.</FONT></TD>
+            <TD CELLPADDING="4"><FONT COLOR="blue">MPF120 : Muestra MainUsersListPage.</FONT></TD>
         </TR>
     </TABLE>>];
 
@@ -175,5 +175,6 @@ USDTF09 -> USDTF10;
 USDTF10 -> USDTF11;
 USDTF08 -> USDTF12;
 USDTF12 -> USDTF13;
+USDTF13 -> USDTF02;
 USDTF05 -> USDTF07;
 }

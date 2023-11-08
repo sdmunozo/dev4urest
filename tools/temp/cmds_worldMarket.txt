@@ -1,0 +1,27 @@
+TI-Mapa Mundial de Mercados
+ME-País A
+FU-Estado A1-VE
+FU-Estado A2-AM
+FU-Estado A3-RO
+EM
+ME-País B
+FU-Estado B1-RO
+FU-Estado B2-VE
+EM
+ME-País C
+FU-Estado C1-AM
+FU-Estado C2-RO
+FU-Estado C3-VE
+FU-Estado C4-AM
+EM
+ME-País D
+FU-Estado D1-VE
+FU-Estado D2-AM
+EM
+ME-País E
+FU-Estado E1-RO
+FU-Estado E2-VE
+FU-Estado E3-AM
+FU-Estado E4-RO
+FU-Estado E5-VE
+EM

@@ -197,12 +197,12 @@ NFNA-DownloadUserTemplateFlow
 ## DEFINICIÓN
 
 DEF-INI
-Administrador
-El usuario Administrador es capaz de 
-PR
-PO
-1 de Noviembre 2023
-1 de Noviembre 2023
+Administrador.
+El usuario Administrador es capaz de descargar una plantilla en formato csv con el fin de tener la base para dar de alta masivamente a usuarios en el sistema.
+Haber ingresado con usuario y clave de Administrador.
+Archivo "UserTemplate.csv" descargado correctamente.
+1 de Noviembre 2023.
+3 de Noviembre 2023.
 DEF-END
 
 ## DIAGRAMA: Download User Template 
@@ -210,22 +210,39 @@ IMG-USDTF : Download User Template -../developer_guide/diagrams/uc/uc_png/FL_ADM
 
 ## FLUJO BÁSICO: Download User Template 
 NT
--TS-VIE1-USDTF01-MPF23
--TS-EJE-USDTF02-Download Template(User)
-TR-COD-USDTF03-Success-UserTemplate.csv
-TR-COD-USDTF04-Record not found.-Hay un problema con el servidor.-error
-TR-COD-USDTF05-Database not available-No hay conexión con la base de datos.-error
--TS-RED-USDTF06-MPF126
--TS-MUE-USDTF07-MessageModal[dis_msg, type]
--TA-SEL-USDTF08-MessageModal : Yes
--TA-SEL-USDTF09-MessageModal : No
--TS-CLO-USDTF10-MessageModal
--TS-RED-USDTF11-MPF120
--TS-CLO-USDTF12-MessageModal
--TS-RED-USDTF13-USDTF02
+1-TS-VIE1-USDTF01-MPF127 : SEL "Descargar Plantilla"
+2-TS-EJE-USDTF02-downloadUserTemplate()-200 404 E1
+ET
 
+### Códigos : downloadUserTemplate()
+NC
+CO-200-Success-Descarga UserTemplate.csv
+CO-404-Record not found-Hay un problema con el servidor.
+CO-E1-Database not available-No hay conexión con la base de datos.
+ET
+
+### FLUJO downloadUserTemplate() : 200
+NT
+1-TS-RED-USDTF06-MPF126 : Esperar acción de usuario
+ET
+
+### FLUJO downloadUserTemplate() : 404 E1
+NT
+1-TS-MUE-USDTF07-showMessageModal(dis_msg, type)
+ET
+
+### FLUJO downloadUserTemplate() : 404 E1 : Yes
+NT
+1-TA-SEL-USDTF08-MessageModal : Yes
+2-TS-CLO-USDTF10-MessageModal
+3-TS-RED-USDTF11-MPF120 : Muestra MainUsersListPage
+ET
+
+### FLUJO downloadUserTemplate() : 404 E1 : No
+NT
+1-TA-SEL-USDTF09-MessageModal : No
+2-TS-CLO-USDTF12-MessageModal
+3-TS-RED-USDTF13-USDTF02
 
 WR
 // TERMINA > USDTF : DownloadUserTemplateFlow
-
-

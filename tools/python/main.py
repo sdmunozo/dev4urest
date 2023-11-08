@@ -2,7 +2,8 @@ from management import s6_add_fd_markd, s1_dot_gen
 
 print("main.py se está iniciando...")
 
-print("- - - s1_dot_gen.py se está iniciando... - - - ")
+#print("- - - s1_dot_gen.py se está iniciando... - - - ")
+#exec(open('management/s1_dot_gen.py').read())
 #print("s1_dot_gen.py se está iniciando...")
 #nombre_entidad = "User"
 #ruta_commands_dot = "comandos_dot.txt"
@@ -10,7 +11,7 @@ print("- - - s1_dot_gen.py se está iniciando... - - - ")
 #ruta_uc = "../../../developer_guide/diagrams/uc/uc_png/"
 #s1_dot_gen.main(nombre_entidad, ruta_commands_dot, ruta_dot, ruta_uc)
 
-exec(open('management/s1_dot_gen.py').read())
+
 
 print("s2_dot_to_img.py se está iniciando...")
 exec(open('management/s2_dot_to_img.py').read())

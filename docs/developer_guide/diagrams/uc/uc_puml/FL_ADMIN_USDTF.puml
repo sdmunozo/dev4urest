@@ -3,6 +3,6 @@
 left to right direction
 
     usecase "USDTF :  Download User Template" as UserCase
-    "Administrador" --> UserCase
+    "Administrador." --> UserCase
 
 @enduml

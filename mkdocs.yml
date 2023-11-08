@@ -21,6 +21,11 @@ extra_javascript:
 nav:
   #- Home: todolist.html
   - Home: index.md
+  - Documentación:
+    - Generalidades BD: developer_guide/docs4uR/format_bd.md
+    - Gestión de Usuarios: developer_guide/docs4uR/forms_user.md
+    - Requerimientos: developer_guide/docs4uR/req.md
+    - Casos de uso: developer_guide/docs4uR/uc_basic.md
   - Main Flows:
       - MPF Manage Page : developer_guide/ManagePageFlow.md
       #- LAF Login Admin : developer_guide/LoginAdminFlow.md

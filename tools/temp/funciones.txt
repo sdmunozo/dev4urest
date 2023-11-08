@@ -1,0 +1,760 @@
+Funcionalidades por mercado - 4uRest
+
+Mercado 4: Pequeños propietarios con experiencia limitada y capacidad de inversión limitada, buscando eficiencia operativa.
+
+- 4POS Offline (Lite)
+- Gestión de Usuarios (Lite)
+- Gestión de Roles (Lite)
+- Gestión de Categorías de Productos (Lite)
+- Gestión de Productos(Articulos, Platillos) (Lite)
+- Gestión de KDS (Impresora) (Lite)
+- Gestión de "Puntos de Venta" (Lite)
+- Operación de Turnos (Lite)
+- Operación de Ordenes (Lite)
+- Operación de Cortes (Lite)
+- Seguimiento de ventas Local (Lite)
+- Operación Mesas Básica (Lite)
+- Actualizaciones Automáticas (Lite)
+- Dashboard Administrativo Local (Lite)
+- Control de inventarios Local (Lite)
+- Capacitación en línea Videos (Lite)
+- Soporte técnico Basico (Lite)
+
+
+Mercado 5: Restauranteros con un local mediano y una inversión significativa, buscando consolidar su presencia y optimizar su gestión.
+
+- 4POS Online (Pro)
+- Gestión de Grupos de Modificadores (Pro)
+- Gestión de Ingresos y Egresos (Pro)
+- Copia de Seguridad Local y en la Nube (Pro)
+- Seguimiento de ventas Online (Pro)
+- Operaciones en Tiempo Real (Pro)
+- Gestionar Mesas Avanzada (Pro)
+- Gestión de KDS (Digital) (Pro)
+- Gráficas y reportes (Pro)
+- Configuración de servidor local dedicado (Pro)
+- Control de inventarios Online (Pro)
+- Dashboard Administrativo Online (Pro)
+- Integración con Facturación Electrónica (Pro)
+- Promociones (Pro)
+- Manejo de Permisos especiales por usuario (Pro)
+- Capacitación en línea Online (Pro)
+- Soporte técnico Standard (Pro)
+
+Mercado 6: Propietarios de 2 a 3 sucursales necesitando coordinar operaciones y estandarizar procesos.
+
+- 4POS Hibryd (Pro)
+- Gestionar repartos (Pro)
+- Gestión de Ingresos y Egresos (Pro)
+- Gráficas y reportes (Pro)
+- Sincronización MultiSucursal (Pro)
+- Soporte técnico Standard (Pro)
+
+Mercado 7: Negocios con 3 a 7 sucursales que buscan automatización avanzada y estrategias de marketing refinadas.
+
+- Reservación de mesas (SuperPro)
+- Gráficas y reportes (SuperPro)
+- Control de Propinas (SuperPro)
+- Módulo de Proveedores (SuperPro)
+- Módulo de Compras (SuperPro)
+- Auditoría (SuperPro)
+- Soporte técnico Professional (SuperPro)
+- Capacitación en línea Presencial (SuperPro)
+
+Mercado 8: Grandes empresas con más de 7 sucursales en una única ciudad o áreas próximas, buscando dominar el mercado local.
+
+- Gestión de nómina (SuperPro)
+- Programas de lealtad para clientes (SuperPro)
+
+Mercado 9: Corporaciones con presencia en varias ciudades, interesadas en la uniformidad y análisis de datos complejos para la toma de decisiones.
+
+- Gestión de Cadena de Suministro (SuperPro)
+- Optimización Logística (SuperPro)
+- Gestión de Cadena de Suministro (SuperPro)
+
+Mercado 10: Cadenas nacionales con necesidades de integración total y visibilidad a nivel país.
+
+- Cuentas e-wallet para los clientes (SuperPro)
+- Gestión de nómina (Elite)
+- Módulo de Proveedores (Elite)
+- Módulo de Compras (Elite)
+- Gestión de Cadena de Suministro (Elite)
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+
+
+
+
+
+
+
+
+
+Mercado 4: Propietarios de un local pequeño
+- Gestión de Catálogo: Básica (Gestión de Productos, Categorías)
+- Gestión de Inventario: Control de inventarios Básico-Local
+- Gestión de Configuraciones: Gestión básica de "Puntos de Venta" y Cajeros
+- Ventas y Operaciones Comerciales: Gestión de Ordenes, 4POS (Offline)
+- Promociones y Programas de Lealtad: Promociones
+- Informes y Análisis de Datos: Seguimiento de ventas (Local), Gráficas y reportes (Lite)
+- Gestión de Usuarios y Seguridad: Gestión básica de Roles y Usuarios
+- Integraciones: Integración con Facturación Electrónica
+- Capacitación y Soporte: Capacitación en línea (Videos), Soporte técnico (Lite)
+- Configuración y Personalización del Sistema: Dashboard Administrativo (Local)
+- Gestión Financiera y Contable: Gestión de Turnos, Gestión de Cortes
+- Copias de Seguridad y Restauración: Copia de Seguridad Local
+
+Mercado 5: Restauranteros con local mediano
+- Gestión de Catálogo: Intermedia
+- Gestión de Inventario: Control de inventarios Básico-Local
+- Gestión de Configuraciones: Intermedia
+- Ventas y Operaciones Comerciales: Gestión avanzada de Ordenes, Gestionar Mesas, Reservación de mesas
+- Promociones y Programas de Lealtad: Programas de lealtad para clientes
+- Informes y Análisis de Datos: Gráficas y reportes (Standard)
+- Gestión de Usuarios y Seguridad: Intermedia con Manejo de Permisos especiales por usuario
+- Integraciones: Integración con Facturación Electrónica
+- Capacitación y Soporte: Soporte técnico (Standard)
+- Configuración y Personalización del Sistema: Dashboard Administrativo (Online)
+- Gestión Financiera y Contable: Intermedia
+- Gestión de Recursos y Proveedores: Módulo de Proveedores
+- Copias de Seguridad y Restauración: Copia de Seguridad en la Nube
+
+Mercado 6: Propietarios de 2 a 3 sucursales
+- Gestión de Catálogo: Avanzada
+- Gestión de Inventario: Sincronización de Inventarios MultiSucursal
+- Gestión de Configuraciones: Avanzada (Gestión de KDS, Gestión de Cajeros)
+- Ventas y Operaciones Comerciales: 4POS (Online, Hibryd), Gestionar repartos
+- Promociones y Programas de Lealtad: Avanzadas
+- Informes y Análisis de Datos: Gráficas y reportes (Standard)
+- Gestión de Usuarios y Seguridad: Avanzada
+- Integraciones: Integración con Facturación Electrónica
+- Capacitación y Soporte: Soporte técnico (Standard), Actualizaciones Automáticas
+- Configuración y Personalización del Sistema: Dashboard Administrativo (Online)
+- Gestión Financiera y Contable: Completa
+- Gestión de Recursos y Proveedores: Módulo de Compras
+- Operaciones y Monitoreo en Tiempo Real: Operaciones en Tiempo Real
+
+Mercado 7: Negocios con 3 a 7 sucursales
+- Gestión de Catálogo: Avanzada
+- Gestión de Inventario: Sincronización de Inventarios MultiSucursal
+- Gestión de Configuraciones: Avanzada con gestión de múltiples KDS y Puntos de Venta
+- Ventas y Operaciones Comerciales: 4POS (Online, Hibryd), Gestionar repartos
+- Promociones y Programas de Lealtad: Avanzadas
+- Informes y Análisis de Datos: Gráficas y reportes (Professional)
+- Gestión de Usuarios y Seguridad: Avanzada con Auditoría
+- Integraciones: Integración con Facturación Electrónica
+- Capacitación y Soporte: Soporte técnico (Professional), Capacitación (Online, Presencial)
+- Configuración y Personalización del Sistema: Dashboard Administrativo (Online) con Configuración de servidor local dedicado
+-
+
+ Gestión Financiera y Contable: Completa con e-wallet para clientes
+- Gestión de Recursos y Proveedores: Gestión de Cadena de Suministro, Optimización Logística
+- Operaciones y Monitoreo en Tiempo Real: Operaciones en Tiempo Real
+
+Mercado 8: Grandes empresas con más de 7 sucursales
+- Gestión de Catálogo: Avanzada
+- Gestión de Inventario: Sincronización de Inventarios MultiSucursal Avanzada
+- Gestión de Configuraciones: Avanzada
+- Ventas y Operaciones Comerciales: Completa
+- Promociones y Programas de Lealtad: Avanzadas con estrategias de marketing refinadas
+- Informes y Análisis de Datos: Gráficas y reportes (Professional)
+- Gestión de Usuarios y Seguridad: Avanzada con Auditoría completa
+- Integraciones: Integración con Facturación Electrónica y otras plataformas
+- Capacitación y Soporte: Soporte técnico (Professional)
+- Configuración y Personalización del Sistema: Completa
+- Gestión Financiera y Contable: Completa
+- Gestión de Recursos y Proveedores: Completa
+- Operaciones y Monitoreo en Tiempo Real: Completa
+- Gestión de Servicios Adicionales: Control de Propinas
+
+Mercado 9: Corporaciones con presencia en varias ciudades
+- Gestión de Catálogo: Avanzada con gestión de precios de Productos por plataforma
+- Gestión de Inventario: Sincronización de Inventarios MultiSucursal Avanzada
+- Gestión de Configuraciones: Avanzada con gestión de múltiples KDS y Puntos de Venta
+- Ventas y Operaciones Comerciales: Completa
+- Promociones y Programas de Lealtad: Avanzadas con estrategias de marketing refinadas
+- Informes y Análisis de Datos: Professional con análisis de datos complejos
+- Gestión de Usuarios y Seguridad: Avanzada con Auditoría completa y manejo de permisos especiales
+- Integraciones: Integración con Facturación Electrónica y otras plataformas
+- Capacitación y Soporte: Soporte técnico (Professional), Actualizaciones Automáticas
+- Configuración y Personalización del Sistema: Completa con servidor local dedicado
+- Gestión Financiera y Contable: Completa
+- Gestión de Recursos y Proveedores: Completa con optimización logística avanzada
+- Operaciones y Monitoreo en Tiempo Real: Completa
+- Copias de Seguridad y Restauración: Copia de Seguridad en la Nube Avanzada
+
+Mercado 10: Cadenas nacionales
+- Todos los aspectos de la "Lista de funcionalidades" en su nivel más avanzado y desarrollado para satisfacer la necesidad de integración total y visibilidad a nivel país. Esto incluiría:
+  - Gestión avanzada de Catálogo con gestión de precios por plataforma.
+  - Sincronización de Inventarios MultiSucursal en nivel avanzado.
+  - Gestión completa de Configuraciones con múltiples Puntos de Venta y KDS.
+  - Operaciones Comerciales y Ventas en todos los modos posibles con repartos a nivel nacional.
+  - Promociones y Programas de Lealtad altamente personalizados.
+  - Informes y Análisis de Datos en su versión más compleja para análisis a nivel nacional.
+  - Gestión de Usuarios y Seguridad con Auditoría completa y personalización avanzada.
+  - Integraciones con sistemas de Facturación Electrónica y otras plataformas necesarias a nivel nacional.
+  - Capacitación y Soporte técnico en su máximo nivel, incluyendo actualizaciones automáticas y capacitación presencial a nivel nacional.
+  - Configuración y Personalización del Sistema con servidores locales dedicados y dashboards avanzados.
+  - Gestión Financiera y Contable completa con funcionalidades para manejo de nóminas y cuentas e-wallet para clientes a nivel nacional.
+  - Gestión de Recursos y Proveedores completa con optimización logística para cadena de suministro nacional.
+  - Operaciones y Monitoreo en Tiempo Real en su máxima expresión.
+  - Copias de Seguridad y Restauración a nivel de nube avanzada.
+
+
+
+
+
+
+
+
+
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Gestión de Catálogo:
+    - Gestión de Categorías de Productos
+    - Gestión de Productos(Articulos, Platillos)
+    - Gestión de Modificadores y Grupos de Modificadores
+    - Gestión de precios de Productos por plataforma
+
+Gestión de Inventario:
+    - Control de inventarios Básico-Local
+    - Sincronización de Inventarios MultiSucursal
+
+Gestión de Configuraciones
+    - Gestión de "Puntos de Venta"
+    - Gestión de KDS
+    - Gestión de Cajeros
+
+Ventas y Operaciones Comerciales:
+    - Gestión de Ordenes
+    - Gestionar Mesas
+    - Reservación de mesas
+    - 4POS (Offline, Online, Hibryd)
+    - Gestionar repartos
+
+Promociones y Programas de Lealtad:
+    - Promociones
+    - Programas de lealtad para clientes
+
+Informes y Análisis de Datos:
+    - Seguimiento de ventas (Local, Online)
+    - Gráficas y reportes(Lite, Standard, Professional)
+
+Gestión de Usuarios y Seguridad:
+    - Gestión de Roles
+    - Gestión de Usuarios
+    - Manejo de Permisos especiales por usuario.
+    - Auditoría
+
+Integraciones:
+    - Integración con Facturación Electrónica
+
+Capacitación y Soporte:
+    - Capacitación en línea - (Videos, Online, Presencial)
+    - Soporte técnico (Lite, Standard, Professional)
+    - Actualizaciones Automáticas    
+
+Configuración y Personalización del Sistema:
+    - Dashboard Administrativo (Local, Online)
+    - Configuración de servidor local dedicado
+
+Gestión Financiera y Contable:
+    - Gestión de Turnos
+    - Gestión de Cortes
+    - Gestión de nómina
+    - Gestión de Ingresos y Egresos
+    - Cuentas e-wallet para los clientes
+
+Gestión de Recursos y Proveedores:
+    - Módulo de Proveedores
+    - Módulo de Compras
+    - Gestión de Cadena de Suministro
+    - Optimización Logística
+
+Operaciones y Monitoreo en Tiempo Real:
+    - Operaciones en Tiempo Real
+
+Copias de Seguridad y Restauración:
+    - Copia de Seguridad Local y en la Nube
+
+Gestión de Servicios Adicionales:
+    - Control de Propinas
+
+
+
+
+
+    - - - - ORIGINAL - - - - -
+
+    Para organizar estas funcionalidades en categorías relacionadas, se pueden agrupar bajo encabezados generales que reflejen las áreas principales de un sistema de punto de venta y gestión empresarial. Las categorías podrían ser:
+1. Gestión de Productos e Inventario:
+    - Administración de productos
+    - Control de inventarios
+    - Base de Datos de Productos
+    - Capacidad Ampliada de Productos
+    - Gestión de Categorías de Productos
+    - Sincronización de Inventario MultiStore
+    - Inventarios periódicos
+    - Platillos y artículos
+    - Modificadores de recetas estandarizadas
+2. Ventas y Operaciones Comerciales:
+    - Registro de Ventas
+    - Seguimiento de ventas en smartphone
+    - Ordenes y precios por plataforma
+    - Gestión de Puntos de Venta
+    - Gestionar Mesas y Áreas del Local
+    - Reservación de mesas
+    - Modo de Ventas Offline
+    - Venta Sugerida
+3. Promociones y Programas de Lealtad:
+    - Promociones
+    - Programas de lealtad para clientes
+    - Configuración de Descuentos Globales
+4. Informes y Análisis de Datos:
+    - Gráficas y reportes
+    - Análisis de Ventas Pro
+    - Reportes de Utilidades y Pérdidas
+    - Análisis Predictivo SuperPro
+    - KPIs y Métricas Clave
+5. Gestión de Usuarios y Seguridad:
+    - Configuración avanzada de derechos de acceso
+    - Gestión de Usuarios y Autenticación
+    - Manejo de Permisos Detallados
+    - Seguridad y Monitoreo
+6. Integraciones y Extensibilidad:
+    - Integración eCommerce
+    - Implementación Asistida
+    - Integración ERP/CRM SuperPro
+    - APIs para Extensión
+    - Integración con Facturación Electrónica
+    - Integración con ERP Global
+7. Capacitación y Soporte:
+    - Capacitación en línea - Videos explicativos
+    - Soporte técnico
+    - Capacitación en línea - En vivo - Agendada
+8. Configuración y Personalización del Sistema:
+    - Control desde internet
+    - Interfaz de Usuario
+    - Dashboard Administrativo MultiStore
+    - Configuración de servidor local dedicado
+    - Personalización de Tickets
+    - Personalización de Documentos
+9. Gestión Financiera y Contable:
+    - Control de finanzas
+    - Contabilidad de nómina
+    - Gastos y Ajustes de Caja
+    - Gastos Recurrentes
+    - Cuentas e-wallet para los clientes
+10. Gestión de Recursos y Proveedores:
+    - Gestionar repartos
+    - Módulo de Proveedores
+    - Módulo de Compras
+    - Gestión de Cadena de Suministro SuperPro
+    - Optimización Logística Global
+11. Infraestructura y Hardware:
+    - Compatibilidad con Hardware SuperPro
+    - Integración con Básculas
+12. Servicios de Soporte y Actualizaciones:
+    - Soporte Premium 24/7
+    - Actualizaciones Automáticas
+13. Clientes y CRM:
+    - Módulo de Clientes
+    - Gestión de Cajeros
+14. Operaciones y Monitoreo en Tiempo Real:
+    - Operaciones en Tiempo Real
+15. Copias de Seguridad y Restauración:
+    - Copia de Seguridad Local y en la Nube
+    - Restauración de Datos
+16. Notificaciones y Alertas:
+    - Notificaciones y Alertas
+17. Gestión de Servicios Adicionales:
+    - Módulo de Cocina y Comandas
+    - Control de Propinas
+    - Historial de Actividades
+18. Centralización y Gestión Global:
+    - Centralización de Gestión Global
+    - Alta Disponibilidad
+    - Cumplimiento Regulatorio SuperPro
+
+
+
+
+
+
+
+
+
+
+- - - - - - - - - - 4POS
+
+Gestión de Catálogo:
+    - Gestión de Categorías de Productos (Lite)
+    - Gestión de Productos(Articulos, Platillos) (Lite)
+    - Gestión de Modificadores (Lite)
+    - Gestión de Grupos de Modificadores (Pro)
+    - Gestión de precios de Productos por plataforma (Lite)
+
+Gestión de Inventario:
+    - Control de inventarios Local (Lite)
+    - Control de inventarios Online (Pro)
+    - Sincronización de Inventarios MultiSucursal (Pro)
+
+Gestión de Configuraciones
+    - Gestión de "Puntos de Venta" (Lite)
+    - Gestión de KDS (Impresora) (Lite)
+    - Gestión de KDS (Digital) (Pro)
+    - Gestión de Cajeros (Lite)
+
+Ventas y Operaciones Comerciales:
+    - Gestión de Ordenes (Lite)
+    - Gestionar Mesas Básica (Lite)
+    - Gestionar Mesas Avanzada (Pro)
+    - Reservación de mesas (SuperPro)
+    - 4POS Offline (Lite)
+    - 4POS Online (Pro)
+    - 4POS Hibryd (Pro)
+    - Gestionar repartos (Pro)
+
+Promociones y Programas de Lealtad:
+    - Promociones (Pro)
+    - Programas de lealtad para clientes (SuperPro)
+
+Informes y Análisis de Datos:
+    - Seguimiento de ventas Local (Lite)
+    - Seguimiento de ventas Online (Pro)
+    - Gráficas y reportes(Lite, Pro, SuperPro)
+
+Gestión de Usuarios y Seguridad:
+    - Gestión de Roles (Lite)
+    - Gestión de Usuarios (Lite)
+    - Manejo de Permisos especiales por usuario (Pro)
+    - Auditoría (SuperPro)
+
+Integraciones:
+    - Integración con Facturación Electrónica (Pro)
+
+Capacitación y Soporte:
+    - Capacitación en línea Videos (Lite)
+    - Capacitación en línea Online (Pro)
+    - Capacitación en línea Presencial (SuperPro)
+    - Soporte técnico Basic (Lite)
+    - Soporte técnico Standard (Pro)
+    - Soporte técnico Professional (SuperPro)
+    - Actualizaciones Automáticas (Lite)
+
+Configuración y Personalización del Sistema:
+    - Dashboard Administrativo Local (Lite)
+    - Dashboard Administrativo Online (Pro)
+    - Configuración de servidor local dedicado (Pro)
+
+Gestión Financiera y Contable:
+    - Gestión de Turnos (Lite)
+    - Gestión de Cortes (Lite)
+    - Gestión de nómina (SuperPro)
+    - Gestión de Ingresos y Egresos (Pro)
+    - Cuentas e-wallet para los clientes (SuperPro)
+
+Gestión de Recursos y Proveedores:
+    - Módulo de Proveedores (SuperPro)
+    - Módulo de Compras (SuperPro)
+    - Gestión de Cadena de Suministro (SuperPro)
+    - Optimización Logística (SuperPro)
+
+Operaciones y Monitoreo en Tiempo Real:
+    - Operaciones en Tiempo Real (Pro)
+
+Copias de Seguridad y Restauración:
+    - Copia de Seguridad Local y en la Nube (Pro)
+
+Gestión de Servicios Adicionales:
+    - Control de Propinas (SuperPro)
+
+
+
+
+
+
+
+
+- - - - - - - - - - - - - 
+
+**Mercado 4: Pequeños propietarios con experiencia limitada y capacidad de inversión limitada, buscando eficiencia operativa.**
+
+Gestión de Catálogo:
+- Gestión de Categorías de Productos (Lite)
+- Gestión de Productos(Articulos, Platillos) (Lite)
+
+Gestión de Inventario:
+- Control de inventarios Local (Lite)
+
+Gestión de Configuraciones:
+- Gestión de "Puntos de Venta" (Lite)
+- Gestión de KDS (Impresora) (Lite)
+
+Ventas y Operaciones Comerciales:
+- Gestión de Ordenes (Lite)
+- Gestionar Mesas Básica (Lite)
+- 4POS Offline (Lite)
+
+Informes y Análisis de Datos:
+- Seguimiento de ventas Local (Lite)
+
+Gestión de Usuarios y Seguridad:
+- Gestión de Roles (Lite)
+- Gestión de Usuarios (Lite)
+
+Capacitación y Soporte:
+- Capacitación en línea Videos (Lite)
+- Soporte técnico Basic (Lite)
+- Actualizaciones Automáticas (Lite)
+
+Configuración y Personalización del Sistema:
+- Dashboard Administrativo Local (Lite)
+
+Gestión Financiera y Contable:
+- Gestión de Turnos (Lite)
+- Gestión de Cortes (Lite)
+
+**Mercado 5: Restauranteros con un local mediano y una inversión significativa, buscando consolidar su presencia y optimizar su gestión.**
+
+Gestión de Catálogo:
+- Gestión de Grupos de Modificadores (Pro)
+
+Gestión de Inventario:
+- Control de inventarios Online (Pro)
+
+Gestión de Configuraciones:
+- Gestión de KDS (Digital) (Pro)
+
+Ventas y Operaciones Comerciales:
+- Gestionar Mesas Avanzada (Pro)
+- 4POS Online (Pro)
+
+Promociones y Programas de Lealtad:
+- Promociones (Pro)
+
+Informes y Análisis de Datos:
+- Seguimiento de ventas Online (Pro)
+- Gráficas y reportes (Pro)
+
+Gestión de Usuarios y Seguridad:
+- Manejo de Permisos especiales por usuario (Pro)
+
+Integraciones:
+- Integración con Facturación Electrónica (Pro)
+
+Capacitación y Soporte:
+- Capacitación en línea Online (Pro)
+- Soporte técnico Standard (Pro)
+
+Configuración y Personalización del Sistema:
+- Dashboard Administrativo Online (Pro)
+- Configuración de servidor local dedicado (Pro)
+
+Gestión Financiera y Contable:
+- Gestión de Ingresos y Egresos (Pro)
+
+Operaciones y Monitoreo en Tiempo Real:
+- Operaciones en Tiempo Real (Pro)
+
+Copias de Seguridad y Restauración:
+- Copia de Seguridad Local y en la Nube (Pro)
+
+**Mercado 6: Propietarios de 2 a 3 sucursales necesitando coordinar operaciones y estandarizar procesos.**
+
+Gestión de Inventario:
+- Sincronización de Inventarios MultiSucursal (Pro)
+
+Ventas y Operaciones Comerciales:
+- Gestionar repartos (Pro)
+- 4POS Hibryd (Pro)
+
+Informes y Análisis de Datos:
+- Gráficas y reportes (Pro)
+
+Capacitación y Soporte:
+- Soporte técnico Standard (Pro)
+
+Gestión Financiera y Contable:
+- Gestión de Ingresos y Egresos (Pro)
+
+**Mercado 7: Negocios con 3 a 7 sucursales que buscan automatización avanzada y estrategias de marketing refinadas.**
+
+Ventas y Operaciones Comerciales:
+- Reservación de mesas (SuperPro)
+
+Promociones y Programas de Lealtad:
+- Programas de lealtad para clientes (SuperPro)
+
+Informes y Análisis de Datos:
+- Gráficas y reportes (SuperPro)
+
+Gestión de Usuarios y Seguridad:
+- Auditoría (SuperPro)
+
+Capacitación y Soporte:
+- Capacitación en línea Presencial (SuperPro)
+- Soporte técnico Professional (SuperPro)
+
+Gestión Financiera y Contable:
+- Gestión de nómina (SuperPro)
+- Cuentas e-wallet para los clientes (SuperPro)
+
+Gestión de Recursos y Proveedores:
+- Módulo de
+
+ Proveedores (SuperPro)
+- Módulo de Compras (SuperPro)
+- Gestión de Cadena de Suministro (SuperPro)
+- Optimización Logística (SuperPro)
+
+Gestión de Servicios Adicionales:
+- Control de Propinas (SuperPro)
+
+**Mercado 8: Grandes empresas con más de 7 sucursales en una única ciudad o áreas próximas, buscando dominar el mercado local.**
+
+Gestión de Inventario:
+- Sincronización de Inventarios MultiSucursal (Pro)
+
+Informes y Análisis de Datos:
+- Gráficas y reportes (SuperPro)
+
+Capacitación y Soporte:
+- Soporte técnico Professional (SuperPro)
+
+Gestión de Recursos y Proveedores:
+- Optimización Logística (SuperPro)
+
+**Mercado 9: Corporaciones con presencia en varias ciudades, interesadas en la uniformidad y análisis de datos complejos para la toma de decisiones.**
+
+Informes y Análisis de Datos:
+- Gráficas y reportes (SuperPro)
+
+Gestión de Usuarios y Seguridad:
+- Auditoría (SuperPro)
+
+Capacitación y Soporte:
+- Capacitación en línea Presencial (SuperPro)
+
+Gestión de Recursos y Proveedores:
+- Gestión de Cadena de Suministro (SuperPro)
+
+**Mercado 10: Cadenas nacionales con necesidades de integración total y visibilidad a nivel país.**
+
+Promociones y Programas de Lealtad:
+- Programas de lealtad para clientes (SuperPro)
+
+Informes y Análisis de Datos:
+- Gráficas y reportes (SuperPro)
+
+Gestión de Usuarios y Seguridad:
+- Auditoría (SuperPro)
+
+Capacitación y Soporte:
+- Soporte técnico Professional (SuperPro)
+
+Gestión Financiera y Contable:
+- Gestión de nómina (SuperPro)
+- Cuentas e-wallet para los clientes (SuperPro)
+
+Gestión de Recursos y Proveedores:
+- Módulo de Proveedores (SuperPro)
+- Módulo de Compras (SuperPro)
+- Gestión de Cadena de Suministro (SuperPro)
+
+
+- - - - - - - - - - - - - 
+
+**Mercado 4: Pequeños propietarios con experiencia limitada y capacidad de inversión limitada, buscando eficiencia operativa.**
+
+- Gestión de Categorías de Productos (Lite)
+- Gestión de Productos(Articulos, Platillos) (Lite)
+- Control de inventarios Local (Lite)
+- Gestión de "Puntos de Venta" (Lite)
+- Gestión de KDS (Impresora) (Lite)
+- Gestión de Ordenes (Lite)
+- Gestionar Mesas Básica (Lite)
+- 4POS Offline (Lite)
+- Seguimiento de ventas Local (Lite)
+- Gestión de Roles (Lite)
+- Gestión de Usuarios (Lite)
+- Capacitación en línea Videos (Lite)
+- Soporte técnico Basic (Lite)
+- Actualizaciones Automáticas (Lite)
+- Dashboard Administrativo Local (Lite)
+- Gestión de Turnos (Lite)
+- Gestión de Cortes (Lite)
+
+**Mercado 5: Restauranteros con un local mediano y una inversión significativa, buscando consolidar su presencia y optimizar su gestión.**
+
+- Gestión de Grupos de Modificadores (Pro)
+- Control de inventarios Online (Pro)
+- Gestión de KDS (Digital) (Pro)
+- Gestionar Mesas Avanzada (Pro)
+- 4POS Online (Pro)
+- Promociones (Pro)
+- Seguimiento de ventas Online (Pro)
+- Gráficas y reportes (Pro)
+- Manejo de Permisos especiales por usuario (Pro)
+- Integración con Facturación Electrónica (Pro)
+- Capacitación en línea Online (Pro)
+- Soporte técnico Standard (Pro)
+- Dashboard Administrativo Online (Pro)
+- Configuración de servidor local dedicado (Pro)
+- Gestión de Ingresos y Egresos (Pro)
+- Operaciones en Tiempo Real (Pro)
+- Copia de Seguridad Local y en la Nube (Pro)
+
+**Mercado 6: Propietarios de 2 a 3 sucursales necesitando coordinar operaciones y estandarizar procesos.**
+
+- Sincronización de Inventarios MultiSucursal (Pro)
+- Gestionar repartos (Pro)
+- 4POS Hibryd (Pro)
+- Gráficas y reportes (Pro)
+- Soporte técnico Standard (Pro)
+- Gestión de Ingresos y Egresos (Pro)
+
+**Mercado 7: Negocios con 3 a 7 sucursales que buscan automatización avanzada y estrategias de marketing refinadas.**
+
+- Reservación de mesas (SuperPro)
+- Programas de lealtad para clientes (SuperPro)
+- Gráficas y reportes (SuperPro)
+- Auditoría (SuperPro)
+- Capacitación en línea Presencial (SuperPro)
+- Soporte técnico Professional (SuperPro)
+- Gestión de nómina (SuperPro)
+- Cuentas e-wallet para los clientes (SuperPro)
+- Módulo de Proveedores (SuperPro)
+- Módulo de Compras (SuperPro)
+- Gestión de Cadena de Suministro (SuperPro)
+- Optimización Logística (SuperPro)
+- Control de Propinas (SuperPro)
+
+**Mercado 8: Grandes empresas con más de 7 sucursales en una única ciudad o áreas próximas, buscando dominar el mercado local.**
+
+- Sincronización de Inventarios MultiSucursal (Pro)
+- Gráficas y reportes (SuperPro)
+- Soporte técnico Professional (SuperPro)
+- Optimización Logística (SuperPro)
+
+**Mercado 9: Corporaciones con presencia en varias ciudades, interesadas en la uniformidad y análisis de datos complejos para la toma de decisiones.**
+
+- Gráficas y reportes (SuperPro)
+- Auditoría (SuperPro)
+- Capacitación en línea Presencial (SuperPro)
+- Gestión de Cadena de Suministro (SuperPro)
+
+**Mercado 10: Cadenas nacionales con necesidades de integración total y visibilidad a nivel país.**
+
+- Programas de lealtad para clientes (SuperPro)
+- Gráficas y reportes (SuperPro)
+- Auditoría (SuperPro)
+- Soporte técnico Professional (SuperPro)
+- Gestión de nómina (SuperPro)
+- Cuentas e-wallet para los clientes (SuperPro)
+- Módulo de Proveedores (SuperPro)
+- Módulo de Compras (SuperPro)
+- Gestión de Cadena de Suministro (SuperPro)
