@@ -1,0 +1,942 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../format_bd/">
+      
+      
+        <link rel="next" href="../req/">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.7">
+    
+    
+      
+        <title>Gestión de Usuarios - Dev 4uRest</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.4b4a2bd9.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#formulario-de-levantamiento-de-requerimientos-para-gestion-de-usuarios" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../../.." title="Dev 4uRest" class="md-header__button md-logo" aria-label="Dev 4uRest" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Dev 4uRest
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Gestión de Usuarios
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Dev 4uRest" class="md-nav__button md-logo" aria-label="Dev 4uRest" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Dev 4uRest
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Documentación
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Documentación
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../format_bd/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Generalidades BD
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Gestión de Usuarios
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Gestión de Usuarios
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#formulario-de-levantamiento-de-requerimientos-para-gestion-de-usuarios" class="md-nav__link">
+    Formulario de Levantamiento de Requerimientos para Gestión de Usuarios
+  </a>
+  
+    <nav class="md-nav" aria-label="Formulario de Levantamiento de Requerimientos para Gestión de Usuarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#informacion-general-del-proyecto" class="md-nav__link">
+    Información General del Proyecto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestion-de-usuarios" class="md-nav__link">
+    Gestión de Usuarios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requerimientos-no-funcionales" class="md-nav__link">
+    Requerimientos No Funcionales
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#otros-requerimientos" class="md-nav__link">
+    Otros Requerimientos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../req/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Requerimientos
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../uc_basic/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Casos de uso
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Main Flows
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Main Flows
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ManagePageFlow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    MPF Manage Page
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    User
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            User
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../DownloadUserTemplateFlow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    USDTF User
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#formulario-de-levantamiento-de-requerimientos-para-gestion-de-usuarios" class="md-nav__link">
+    Formulario de Levantamiento de Requerimientos para Gestión de Usuarios
+  </a>
+  
+    <nav class="md-nav" aria-label="Formulario de Levantamiento de Requerimientos para Gestión de Usuarios">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#informacion-general-del-proyecto" class="md-nav__link">
+    Información General del Proyecto
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#gestion-de-usuarios" class="md-nav__link">
+    Gestión de Usuarios
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#requerimientos-no-funcionales" class="md-nav__link">
+    Requerimientos No Funcionales
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#otros-requerimientos" class="md-nav__link">
+    Otros Requerimientos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  <h1>Gestión de Usuarios</h1>
+
+<h2 id="formulario-de-levantamiento-de-requerimientos-para-gestion-de-usuarios">Formulario de Levantamiento de Requerimientos para Gestión de Usuarios</h2>
+<ul>
+<li>Fecha de llenado: 05/ 11/ 2023</li>
+<li>Elaborado por: Daniel Muñoz</li>
+</ul>
+<h3 id="informacion-general-del-proyecto">Información General del Proyecto</h3>
+<p><strong>1. Nombre del Proyecto:</strong> </p>
+<ul>
+<li>Dasha / Users</li>
+</ul>
+<p><strong>2. Descripción del Proyecto:</strong></p>
+<ul>
+<li><strong>Dasha</strong> es el Dashboard administrativo de 4uRest, donde los usuarios Administradores del Restaurante podrán gestionar, hacer ajustes y configuraciones del sistema de todos los registros necesarios para que el software de <strong>4POS</strong> de operación que sera utilizado por Gerentes, Cajeros, Meseros, Cocineros y personal de asistencia puedan ejecutar desarrollar su trabajo correctamente, como el poder registrar una orden/mesa/pedido capturarle productos con sus modificadores, bloquear la orden y poder completar el proceso de cierre/pago de la misma. </li>
+</ul>
+<p><strong>3. Objetivos del Dashboard Administrativo en cuanto a gestión de usuarios:</strong></p>
+<ul>
+<li>Gestionar las entidades relacionadas con la administración del restaurate con el objetivo de tener actualizado todo lo relacionado con la gestión de usuarios, los roles y sus permisos. </li>
+<li>Algunas de las funciones que podra desarrollar el administrador son: </li>
+<li>Ver los usuarios en una lista en el sistema. </li>
+<li>Seleccionar un usuario de la lista y poder actualizar su información o eliminarlo. </li>
+<li>Crear un nuevo usuario y capturar su información. </li>
+<li>Importar una lista de usuarios a partir de un archivo CSV para la alta en el sistema. </li>
+</ul>
+<h3 id="gestion-de-usuarios">Gestión de Usuarios</h3>
+<p><strong>4. Creación de Usuarios:</strong></p>
+<p><em>¿Cuáles son los roles de usuario requeridos?</em></p>
+<ul>
+<li>
+<p>Administrador: Es el usuario con los permisos autorizados para efectuar acciones de gestión y mantenimineto en el sistema. Incluye todos los permisos de un Gerente. </p>
+</li>
+<li>
+<p>Gerente: Es el usuario con los permisos de autorización en operaciones que requieren autorización en el sistema 4POS, operaciones que detienen la operación. Tambien es capaz de supervisar a través de reporten en tiempo real datos como ventas, cancelaciones etc. Incluye todos los permisos de un Cajero. </p>
+</li>
+<li>
+<p>Cajero: Tiene la capacidad de abrir un turno y gestionar todas las ordenes activas en el sistema, asi como procesar el pago de las mismas. Incluye todos los permisos de un Mesero. </p>
+</li>
+<li>
+<p>Mesero: Es uno de los usuarios que utilizan el software operativo de 4POS, puede crear nuevas ordenes, gestionar sus productos, bloquear sus órdenes creadas para que no se puedan seguir ingresando productos. </p>
+</li>
+</ul>
+<p><em>¿Qué información se necesita para registrar un nuevo usuario?</em> </p>
+<ul>
+<li>
+<p>Datos de Usuario: Nombre, Apellido, Correo electrónico, Rol, Estado, Icono, PIN de 4POS, Nombre de usuario, Contraseña. </p>
+</li>
+<li>
+<p>Datos de Sistema: Identificador de usuario, Identificador de sus credenciales, campos de auditoria/log. </p>
+</li>
+</ul>
+<p><em>¿Existen validaciones específicas para cada campo de la información del usuario (e.g., formato de email)?</em> </p>
+<ul>
+<li>
+<p>Nombre, Apellido: Sin caracteres especiales fuera de abecedario local. </p>
+</li>
+<li>
+<p>Correo electrónico: Validación de correo electronico </p>
+</li>
+<li>
+<p>Rol: Que se seleccione un Rol obligatoriamente </p>
+</li>
+<li>
+<p>Estado: Por defecto es activo. </p>
+</li>
+<li>
+<p>Icono: Validación de formato para carga de imagenes. </p>
+</li>
+<li>
+<p>PIN de 4POS: Validación de seguridad para creación de pines. </p>
+</li>
+<li>
+<p>Nombre de usuario: Validación de seguridad para creación de nombre de usuario. </p>
+</li>
+<li>
+<p>Contraseña: Validación de seguridad para creación de contraseñas. </p>
+</li>
+</ul>
+<p><strong>5. Edición de Usuarios:</strong></p>
+<p><em>¿Qué campos se pueden editar después de la creación del usuario?</em> </p>
+<ul>
+<li>
+<p>Edición por parte de usuario: Nombre, Apellido, Correo electrónico, Rol, Estado, Icono, PIN de 4POS, Nombre de usuario, Contraseña. </p>
+</li>
+<li>
+<p>Edición por parte de Sistema: Campos de auditoria/log. </p>
+</li>
+</ul>
+<p><em>¿Existen campos que requieren validaciones especiales al editar?</em> </p>
+<ul>
+<li>
+<p>Nombre, Apellido: Sin caracteres especiales fuera de abecedario local. </p>
+</li>
+<li>
+<p>Correo electrónico: Validación de correo electrónico </p>
+</li>
+<li>
+<p>Rol: Que se seleccione un Rol obligatoriamente </p>
+</li>
+<li>
+<p>Estado: Por defecto es activo. </p>
+</li>
+<li>
+<p>Icono: Validación de formato para carga de imágenes. </p>
+</li>
+<li>
+<p>PIN de 4POS: Validación de seguridad para creación de pines. </p>
+</li>
+<li>
+<p>Nombre de usuario: Validación de seguridad para creación de nombre de usuario. </p>
+</li>
+<li>
+<p>Contraseña: Validación de seguridad para creación de contraseñas. </p>
+</li>
+</ul>
+<p><strong>6. Eliminación de Usuarios:</strong></p>
+<p><em>Describa el proceso de eliminación de usuarios.</em></p>
+<ol>
+<li>El Administrador entra a la parte de Usuarios, en ella se listan los usuarios con status inactivo y activo, en cada usuario se muestran 2 botones, “Editar” y “Eliminar”. </li>
+<li>El Administrador hace clic en el botón de “Eliminar” del usuario deseado. </li>
+<li>El sistema muestra un cuadro de confirmación. </li>
+<li>El Administrador selecciona Confirmar. </li>
+<li>El Sistema registra el usuario con status de eliminado, por lo que ya no se mostrará en el futuro en la lista de usuarios disponibles. </li>
+</ol>
+<p><em>¿Cómo se manejarán los usuarios eliminados en la base de datos (borrado lógico o físico)?</em> </p>
+<ul>
+<li>El borrado es lógico, a través del <em>“Status”</em> del usuario. </li>
+</ul>
+<p><strong>7. Roles y Permisos:</strong></p>
+<p><em>Describa los roles de usuario.</em></p>
+<ul>
+<li>
+<p>Administrador: </p>
+<ul>
+<li>Acceso Completo al Sistema. </li>
+<li>Gestión Avanzada de Usuarios. </li>
+<li>Mantenimiento del Sistema. </li>
+<li>Gestión Financiera. </li>
+<li>Reportes y Análisis de Datos. </li>
+<li>Incluye todos los permisos de un Gerente. </li>
+</ul>
+</li>
+<li>
+<p>Gerente:</p>
+<ul>
+<li>Autorizar operaciones de autorización. </li>
+<li>Gestión de Turnos. </li>
+<li>Control de Flujo de Efectivo. </li>
+<li>Reportes de Ventas. </li>
+<li>Incluye todos los permisos de un Cajero. </li>
+</ul>
+</li>
+<li>
+<p>Cajero:</p>
+<ul>
+<li>Todo lo que puede hacer el Mesero pero para todas las órdenes activas en el sistema, no solo para las de él. </li>
+<li>Apertura de turnos de caja. </li>
+<li>Registro de gastos e ingresos en su turno. </li>
+<li>Procesamiento de cierre completo de ordenes con pago. </li>
+<li>Solicitar descuento en orden, cierre sin pago. </li>
+</ul>
+</li>
+<li>
+<p>Mesero: </p>
+<ul>
+<li>Acceso a plataforma operativa 4POS. </li>
+<li>Creación de ordenes en el sistema. </li>
+<li>Solicitar cancelación de producto. </li>
+</ul>
+</li>
+</ul>
+<p><em>¿Cómo se asignan los permisos a cada rol?</em> </p>
+<ol>
+<li>El Administrador entra a la parte de Roles, en ella se listan los Roles con status inactivo y activo, en cada Rol se muestran 2 botones, “Editar” y “Eliminar”. </li>
+<li>El Administrador hace clic en el botón de “Editar” del Rol deseado. </li>
+<li>El sistema muestra una ventana con el detalle del rol y una lista de los permisos permisos disponibles asignados seguida de los no asignados, esto con una palomita de selección si lo tiene asignado. </li>
+<li>El Administrador edita los campos relacionados con el rol y/o sus permisos asignados. </li>
+<li>El Administrador selecciona guardar cambios. </li>
+<li>El Sistema registra registra los cambios realizados en el Rol correspondiente. </li>
+<li>El sistema redirige a la parte de Roles. </li>
+</ol>
+<p><strong>8. Autenticación de Usuarios:</strong></p>
+<p><em>Describa los mecanismos de autenticación requeridos (e.g., PIN POS, contraseña).</em></p>
+<ul>
+<li>Para ingresar al Dasha se requiere que el usuario ingrese Nombre de usuario y  Contraseña, con estos datos después el usuario hace clic en iniciar sesión el sistema ejecuta las funciones necesarias para validar las credenciales del usuario que debe de tener Rol de Administrador y así permitir acceso al sistema administrativo. </li>
+</ul>
+<p><em>¿Hay requisitos especiales de seguridad para la creación de contraseñas?</em> </p>
+<ul>
+<li>Contraseña: Validación de seguridad para creación de contraseñas.</li>
+<li>PIN de 4POS: Validación de seguridad para creación de pines. </li>
+</ul>
+<p><strong>9. Registro de Actividades:</strong></p>
+<p><em>¿Qué actividades de los usuarios deben ser registradas (e.g., último inicio de sesión)?</em> </p>
+<ul>
+<li>Se debe de registrar cuando un registro es creado. </li>
+<li>Se debe de registrar cuandoun registro es actualizado. </li>
+<li>Se debe de registrar cualquier movimiento en cualquier entidad/configuración que se modifique. </li>
+</ul>
+<p><em>¿Cómo se visualizarán estas actividades en el dashboard?</em> </p>
+<ul>
+<li>En un panel de auditoría, que aún no se pretende planear en este punto. </li>
+</ul>
+<p><strong>10. Estado y Gestión de Sesiones:</strong></p>
+<p><em>Describa cómo se manejará el estado del usuario (activo, inactivo, eliminado).</em></p>
+<ul>
+<li>Status activo: Aparece en la lista de registros, se puede, actualizar y eliminar. </li>
+<li>Status inactivo: Aparece en la lista de registros, se puede, actualizar y eliminar, pero deja de tener acceso al sistema con su cuenta mientras este en este estado. </li>
+<li>Status eliminado: El usuario sigue registrado, pero se deja de mostrar en la lista de registros, una vez su estado cambia a eliminado, se deja de mostrar, pero sigue apareciendo en todos los registros realizados cuando estuvo activo. </li>
+</ul>
+<p><em>¿Cómo se gestionan las sesiones de usuarios (e.g., tiempo de expiración de la sesión)?</em> </p>
+<ul>
+<li>La sesión de administrador expira después de un tiempo, que aún no se pretende planear en este punto. </li>
+</ul>
+<p><strong>11. Interfaz de Usuario:</strong></p>
+<p><em>¿Qué operaciones debe soportar la interfaz de usuario relacionadas con la gestión de usuarios?</em> </p>
+<ul>
+<li>Poder visualizar la lista de usuarios registrados en una “Pagina principal”.</li>
+<li>Poder descargar una plantilla con el formato adecuado.</li>
+<li>Poder cargar una plantilla con la lista de usuarios que se darán de alta y darlos de alta.</li>
+<li>Poder editar los datos de un usuario seleccionado.</li>
+<li>Poder eliminar un usuario seleccionado.</li>
+<li>Poder crear un nuevo usuario.</li>
+</ul>
+<p>Describa los requerimientos visuales y de usabilidad para la gestión de usuarios. </p>
+<ul>
+<li>
+<p>Debe de haber una ventana principal para la gestion de los usuarios, desde esta ventana se debe de poder hacer lo siguiente: </p>
+</li>
+<li>
+<p>Descargar plantilla. </p>
+</li>
+<li>Cargar Plantilla. </li>
+<li>Enviar Plantilla para alta de usuarios. </li>
+<li>Ver la lista de usuarios con estado “Activo” o “Inactivo”, y en cada registro un botón de eliminar o editar. </li>
+<li>Seleccionar un usuario a un usuario para ver sus detalles. </li>
+<li>Debe de existir una ventana donde se desglocen los campos para crear/editar un usuario. </li>
+<li>Debe de existir una ventana donde se puedan desplegar los mensajes de confirmación. </li>
+<li>Debe de existir un modal para desplegar mensajes sencillos y temporales para visualización de mensajes. </li>
+</ul>
+<p><strong>12. Integración y Extensibilidad:</strong></p>
+<p><em>Describa si la gestión de usuarios debe integrarse con otros sistemas o servicios.</em></p>
+<ul>
+<li>La gestión de usuarios se hace desde el Dasha, con esto los usuarios que tengan rol de Gerente, Cajero, Mesero podrán ingresar al sistema con su PIN 4POS </li>
+</ul>
+<p><em>¿Es necesario considerar la extensibilidad para futuros roles o permisos?</em> </p>
+<ul>
+<li>Sí, después se podrán crear roles y permisos personalizados. </li>
+</ul>
+<h3 id="requerimientos-no-funcionales">Requerimientos No Funcionales</h3>
+<p><strong>13. Seguridad:</strong></p>
+<p><em>Describa los requerimientos de seguridad relacionados con la gestión de usuarios.</em></p>
+<ul>
+<li>La gestión de usuarios solo se puede hacer por un Rol Administrador que tenga asignado el permiso de Gestión de Usuarios. </li>
+</ul>
+<p><em>¿Qué medidas se tomarán para proteger la información de los usuarios?</em> </p>
+<ul>
+<li>Solo podrán ser editados por usuarios autorizados (Administrador) y todos los cambios efectuados serán registrados como auditoria. </li>
+</ul>
+<p><strong>14. Rendimiento:</strong></p>
+<p><em>¿Existen expectativas de rendimiento para la carga y gestión de usuarios (e.g., tiempo de respuesta del sistema)?</em> </p>
+<ul>
+<li>Prácticamente instantánea, milisegundos en gestión de un solo usuario. </li>
+<li>En carga masiva puede tardar unos segundos. </li>
+</ul>
+<p><strong>15. Disponibilidad:</strong></p>
+<p><em>¿Cuál es el nivel de disponibilidad requerido para la gestión de usuarios en el dashboard?</em> </p>
+<ul>
+<li>Debe de estar siempre disponible, siempre y cuando sea un administrador. </li>
+</ul>
+<h3 id="otros-requerimientos">Otros Requerimientos</h3>
+<p><strong>16. Legales y de Cumplimiento:</strong></p>
+<p><em>¿Existen requerimientos legales o de cumplimiento que afecten la gestión de usuarios?</em> </p>
+<ul>
+<li>Sí, de privacidad de datos. </li>
+</ul>
+<p><strong>17. Comentarios Adicionales:</strong></p>
+<ul>
+<li>El objetivo es poder tener una gestión completa de los usuarios, pero se comenzará con lo necesario para la carga masiva. Después se irá sobre los otros puntos de la gestión. Se menciona esto con el fin de darle prioridad en el desarrollo.</li>
+</ul>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.aecac24b.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+      
+    
+  </body>
+</html>
